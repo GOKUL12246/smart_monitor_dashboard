@@ -1,0 +1,1679 @@
+timestamp,type,message,location
+2026-01-07 19:41:11,crowd,Crowd limit exceeded: 2 people,exit
+2026-01-08 11:43:57,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:43:59,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:00,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:15,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:15,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:16,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:17,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:19,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:19,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:21,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:21,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:21,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:22,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:22,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:23,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:24,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:24,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:27,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:28,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:29,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:29,crowd,Crowd limit exceeded: 3 people,entry
+2026-01-08 11:44:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:32,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:33,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:33,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:37,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:37,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:38,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 11:44:38,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:33,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:40,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:40,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:41,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:42,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:42,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:42,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-08 14:26:43,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-09 09:44:03,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-09 09:44:45,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-09 09:44:46,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-09 10:50:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-09 10:50:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-09 10:50:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:09,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:09,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:09,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:16,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:19,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:19,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:19,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:20,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:23,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:24,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:24,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:25,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:25,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:26,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:26,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:26,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:27,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:27,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:27,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:27,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:27,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:39,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:39,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:40,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:42,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:10:50,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:25,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:32,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:36,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:49,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:13:50,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:14:31,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:14:32,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:14:33,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:14:33,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:20,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:21,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:22,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:22,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:23,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:55,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:18:57,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:06,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:12,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:13,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:17,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:24,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:25,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:26,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:26,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:35,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:38,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:39,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:51,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:51,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:52,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:52,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:52,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:53,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:53,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:55,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:19:55,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:20:08,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:20:08,crowd,Crowd limit exceeded: 3 people,entry
+2026-01-22 09:20:09,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:20:09,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:20:10,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:20:12,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:20:14,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:44,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:44,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:46,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:46,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:46,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:50,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:51,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:29:58,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:10,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:10,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:12,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:19,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:26,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:28,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:28,crowd,Crowd limit exceeded: 3 people,entry
+2026-01-22 09:46:29,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:29,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-22 09:46:31,crowd,Crowd limit exceeded: 2 people,exit
+2026-01-22 09:46:31,crowd,Crowd limit exceeded: 2 people,exit
+2026-01-27 22:20:04,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-01-27 22:27:15,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-01-27 22:28:35,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-01-27 22:28:55,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,inner_sanctum
+2026-01-27 22:34:23,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-01-27 22:34:24,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-01-27 22:34:25,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-01-27 22:34:41,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-01-27 22:34:57,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-01-28 09:00:58,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:00:59,crowd,Crowd limit exceeded: 3 people,entry
+2026-01-28 09:01:01,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:03,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:04,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:08,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:10,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:12,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:13,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:14,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:16,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-28 09:01:18,crowd,Crowd limit exceeded: 2 people,food
+2026-01-28 09:01:25,crowd,Crowd limit exceeded: 2 people,food
+2026-01-28 09:01:26,crowd,Crowd limit exceeded: 2 people,food
+2026-01-28 09:01:28,crowd,Crowd limit exceeded: 2 people,food
+2026-01-29 20:08:12,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:14,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:17,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:21,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:30,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:34,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:39,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:42,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:44,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:08:48,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:09:11,crowd,Crowd limit exceeded: 3 people,entry
+2026-01-29 20:13:37,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:38,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:38,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:38,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:39,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:40,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:40,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:41,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:42,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:42,crowd,Crowd limit exceeded: 3 people,entry
+2026-01-29 20:13:43,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:45,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:45,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:46,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:46,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:13:48,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:14:01,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:14:01,crowd,Crowd limit exceeded: 2 people,entry
+2026-01-29 20:14:05,crowd,Crowd limit exceeded: 2 people,food
+2026-01-29 20:14:11,crowd,Crowd limit exceeded: 2 people,hospital
+2026-01-29 20:14:12,crowd,Crowd limit exceeded: 2 people,hospital
+2026-01-29 20:14:17,crowd,Crowd limit exceeded: 2 people,hospital
+2026-01-29 20:14:19,crowd,Crowd limit exceeded: 2 people,hospital
+2026-01-29 20:14:21,crowd,Crowd limit exceeded: 2 people,hospital
+2026-01-29 20:14:21,crowd,Crowd limit exceeded: 2 people,hospital
+2026-02-04 09:14:32,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:14:33,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 09:14:33,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-02-04 09:14:37,ai_fall_detected,AI detected sudden_fall with 60% confidence,main_temple
+2026-02-04 09:14:49,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:14:53,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 09:14:54,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-02-04 09:15:10,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:15:14,ai_fall_detected,AI detected sudden_fall with 60% confidence,main_temple
+2026-02-04 09:15:15,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 09:15:18,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-02-04 09:15:28,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:15:35,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 09:15:46,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-02-04 09:15:46,ai_fall_detected,AI detected sudden_fall with 60% confidence,main_temple
+2026-02-04 09:15:49,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:15:56,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 09:16:08,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-02-04 09:16:09,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:16:17,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 09:16:22,ai_fall_detected,AI detected collapse with 60% confidence,main_temple
+2026-02-04 09:16:24,danger_zone_breach,Restricted Barricade: Security alert: Barricade zone breach detected!,main_temple
+2026-02-04 09:16:30,danger_zone_breach,Transformer Area: Security alert: Dangerous electrical area breach!,main_temple
+2026-02-04 09:16:37,danger_zone_breach,Narrow Pathway: Caution: Person entering narrow congested path,main_temple
+2026-02-04 10:58:52,crowd,Crowd limit exceeded: 2 people,entry
+2026-02-04 10:58:57,crowd,Crowd limit exceeded: 2 people,entry
+2026-02-04 10:59:01,crowd,Crowd limit exceeded: 2 people,entry
+2026-02-04 18:57:16,crowd,Crowd limit exceeded: 2 people,entry
+2026-02-04 19:02:25,crowd,Crowd limit exceeded: 3 people,entry
+2026-02-05 18:41:29,fall_detected,Person fall detected,entry_gate
+2026-02-05 18:42:08,fall_detected,Person fall detected,entry_gate
+2026-02-05 18:42:40,fall_detected,Person fall detected,entry_gate
+2026-02-05 18:43:10,fall_detected,Person fall detected,entry_gate
+2026-02-05 18:51:19,fall_detected,Person fall detected,main_temple
+2026-02-05 18:56:31,fall_detected,Person fall detected,medical_center
+2026-02-05 18:58:51,fall_detected,Person fall detected,medical_center
+2026-02-05 19:11:02,fall_detected,Person fall detected,exit_gate
+2026-02-05 19:11:53,fall_detected,Person fall detected,exit_gate
+2026-02-05 19:31:42,fall_detected,Person fall detected,entry_gate
+2026-02-05 19:32:33,fall_detected,Person fall detected,entry_gate
+2026-02-05 19:33:04,fall_detected,Person fall detected,entry_gate
+2026-02-05 19:33:34,fall_detected,Person fall detected,entry_gate
+2026-02-05 19:34:04,fall_detected,Person fall detected,entry_gate
+2026-02-05 19:34:42,fall_detected,Person fall detected,entry_gate
+2026-02-05 20:00:55,fall_detected,Person fall detected,entry_gate
+2026-02-05 20:10:40,fall_detected,Person fall detected,parking
+2026-02-05 20:28:02,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-02-05 20:28:32,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-02-05 20:29:04,crowd_exceeded,Crowd exceeded in inner_sanctum: 1,inner_sanctum
+2026-02-05 20:29:11,crowd_exceeded,Crowd exceeded in food_court: 1,food_court
+2026-02-05 20:29:42,crowd_exceeded,Crowd exceeded in food_court: 1,food_court
+2026-02-05 20:30:12,crowd_exceeded,Crowd exceeded in food_court: 3,food_court
+2026-02-05 20:30:42,crowd_exceeded,Crowd exceeded in food_court: 1,food_court
+2026-02-05 20:34:33,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-05 20:35:03,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:23:58,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:24:18,fall_detected,Person fall detected,entry_gate
+2026-02-05 22:24:28,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-05 22:24:29,fall_detected,Person fall detected,entry_gate
+2026-02-05 22:24:56,fall_detected,Person fall detected,entry_gate
+2026-02-05 22:24:58,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-05 22:25:28,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:54:34,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:55:04,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:55:34,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:56:04,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 22:56:34,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-05 23:02:18,fall_detected,Person fall detected,entry_gate
+2026-02-05 23:02:30,fall_detected,Person fall detected,entry_gate
+2026-02-05 23:02:42,fall_detected,Person fall detected,entry_gate
+2026-02-05 23:02:56,fall_detected,Person fall detected,entry_gate
+2026-02-05 23:07:28,fall_detected,Person fall detected,main_temple
+2026-02-05 23:07:39,fall_detected,Person fall detected,main_temple
+2026-02-05 23:08:06,fall_detected,Person fall detected,inner_sanctum
+2026-02-05 23:08:16,fall_detected,Person fall detected,inner_sanctum
+2026-02-05 23:39:18,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 23:39:48,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-05 23:42:15,fall_detected,Person fall detected,entry_gate
+2026-02-05 23:42:42,fall_detected,Person fall detected,entry_gate
+2026-02-05 23:44:20,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-05 23:44:50,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-06 08:45:33,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 08:46:03,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 08:46:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:49:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:50:00,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:52:31,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:53:05,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:54:20,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:54:50,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 10:55:25,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:55:44,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:55:51,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:56:14,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:56:44,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:57:07,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:57:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:57:24,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:57:47,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:57:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:58:15,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:58:23,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 10:58:27,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:58:37,fall_detected,Person fall detected,entry_gate
+2026-02-06 10:58:53,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 10:59:25,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 11:05:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 11:06:12,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 11:06:42,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 11:07:14,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 11:07:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:05:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:05:47,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:06:20,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:07:05,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:07:45,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:08:16,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:11:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:12:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:12:39,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:13:42,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:14:20,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:14:52,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:15:23,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 16:15:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:16:24,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:16:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:17:25,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 16:17:26,fall_detected,Person fall detected,entry_gate
+2026-02-06 16:17:55,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 16:18:25,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:18:55,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 16:19:25,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-06 16:19:57,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:20:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:21:02,fall_detected,Person fall detected,entry_gate
+2026-02-06 16:21:16,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:21:29,fall_detected,Person fall detected,entry_gate
+2026-02-06 16:21:47,crowd_exceeded,Crowd exceeded in entry_gate: 10,entry_gate
+2026-02-06 16:22:17,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:22:47,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-06 16:23:17,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-02-07 16:43:29,fall_detected,Person fall detected,entry_gate
+2026-02-07 16:46:13,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:46:43,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:47:17,fall_detected,Person fall detected,main_temple
+2026-02-07 16:47:27,fall_detected,Person fall detected,main_temple
+2026-02-07 16:50:30,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:51:00,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:51:21,fall_detected,Person fall detected,entry_gate
+2026-02-07 16:51:33,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:52:03,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:52:33,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 16:53:55,fall_detected,Person fall detected,entry_gate
+2026-02-07 16:54:14,fall_detected,Person fall detected,entry_gate
+2026-02-07 16:54:27,fall_detected,Person fall detected,entry_gate
+2026-02-07 16:54:52,fall_detected,Person fall detected,entry_gate
+2026-02-07 17:01:22,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 17:01:52,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 17:14:30,fall_detected,Person fall detected,entry_gate
+2026-02-07 17:29:40,fall_detected,Person fall detected,entry_gate
+2026-02-07 17:32:09,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-07 17:32:59,fall_detected,Person fall detected,entry_gate
+2026-02-07 17:33:22,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 17:33:52,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 17:34:06,fall_detected,Person fall detected,entry_gate
+2026-02-07 17:34:22,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-02-07 18:05:20,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:05:52,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:06:47,fall_detected,Person fall detected,entry_gate
+2026-02-07 18:07:10,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:07:17,fall_detected,Person fall detected,entry_gate
+2026-02-07 18:08:15,fall_detected,Person fall detected,entry_gate
+2026-02-07 18:08:32,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:09:04,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:09:35,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:10:05,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:10:35,crowd_exceeded,Crowd exceeded in entry_gate: 2,entry_gate
+2026-02-07 18:26:40,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-07 18:26:47,fall_detected,Person fall detected,entry_gate
+2026-02-10 10:12:36,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-10 10:13:09,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-10 10:13:39,fall_detected,Person fall detected,entry_gate
+2026-02-10 10:13:39,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-10 10:14:18,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-10 10:55:43,fall_detected,Person fall detected,entry_gate
+2026-02-12 09:17:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:18:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:18:52,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:19:22,crowd_exceeded,Crowd exceeded in entry_gate: 7,entry_gate
+2026-02-12 09:19:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:20:25,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:30:29,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:32:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:33:07,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:35:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:36:07,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-12 09:36:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-14 10:45:48,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-14 14:22:03,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-14 14:22:35,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-14 14:23:05,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-14 14:23:21,fall_detected,Person fall detected,entry_gate
+2026-02-14 14:23:35,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-14 14:24:05,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-14 14:24:35,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-18 09:17:55,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-02-18 09:19:01,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-02-18 09:44:32,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:45:02,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:52:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:53:24,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:54:22,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:54:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:55:44,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:56:14,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-02-18 09:56:44,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 09:57:14,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:01:15,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:01:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:02:16,crowd_exceeded,Crowd exceeded in entry_gate: 6,entry_gate
+2026-02-18 10:02:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:03:17,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:04:00,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:04:31,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-18 10:05:09,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:34:05,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:34:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:35:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:35:38,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:36:08,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-18 10:36:38,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:37:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:37:38,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:38:09,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:39:01,fall_detected,Person fall detected,entry_gate
+2026-02-18 10:40:50,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:41:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 10:41:38,fall_detected,Person fall detected,entry_gate
+2026-02-18 22:14:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 22:15:37,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 22:18:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-18 22:22:48,fall_detected,Person fall detected,main_temple
+2026-02-18 22:23:54,fall_detected,Person fall detected,main_temple
+2026-02-21 11:30:33,fall_detected,Person fall detected,entry_gate
+2026-02-21 11:31:42,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-21 11:32:50,fall_detected,Person fall detected,entry_gate
+2026-02-21 11:33:06,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-21 11:33:36,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-21 11:34:06,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-23 21:00:16,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-23 21:00:47,crowd_exceeded,Crowd exceeded in entry_gate: 7,entry_gate
+2026-02-26 10:08:02,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-02-26 10:08:32,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-26 10:09:02,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-26 10:09:32,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-26 10:10:02,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:39:31,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:40:11,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:40:40,fall_detected,Person fall detected,main_temple
+2026-02-27 09:40:55,fall_detected,Person fall detected,main_temple
+2026-02-27 09:41:55,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:48:43,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-27 09:49:13,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:49:50,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-27 09:50:20,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:50:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:51:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:51:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:52:34,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:53:18,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:53:58,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:54:28,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:54:58,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:55:28,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-02-27 09:56:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:56:38,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:57:15,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:57:50,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:58:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:58:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:59:22,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 09:59:52,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 10:00:23,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 10:00:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 10:01:23,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 10:01:56,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 10:02:26,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-02-27 10:02:56,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-12 09:14:49,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:15:19,crowd_exceeded,Crowd exceeded in entry_gate: 6,entry_gate
+2026-03-12 09:15:49,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-12 09:16:19,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-12 09:16:50,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:17:20,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:17:50,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:24:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-12 09:25:21,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:25:52,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-03-12 09:26:22,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-03-12 09:32:57,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:33:28,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:34:07,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-03-12 09:36:31,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-12 09:53:41,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-19 10:17:03,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-19 10:17:34,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:38:15,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:39:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:40:15,fall_detected,Person fall detected,entry_gate
+2026-03-27 09:45:36,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:46:07,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:46:39,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:47:17,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:47:48,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:48:18,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:48:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:50:11,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-03-27 09:50:41,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-04-01 20:45:17,fall_detected,Person fall detected,entry_gate
+2026-04-02 09:23:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:26:13,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:26:44,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:28:53,fall_detected,Person fall detected,parking
+2026-04-02 09:30:57,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:33:04,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:33:35,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:37:10,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:37:41,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:39:05,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-02 09:39:35,crowd_exceeded,Crowd exceeded in entry_gate: 6,entry_gate
+2026-04-02 09:42:36,crowd_exceeded,Crowd exceeded in entry_gate: 6,entry_gate
+2026-04-02 09:43:06,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-04-02 09:49:33,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-02 09:50:03,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:50:34,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:51:04,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-02 09:51:34,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-02 09:52:04,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-04-02 09:52:35,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 09:53:05,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-02 09:57:20,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:00:55,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:02:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:03:47,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:10:10,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:12:18,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:13:30,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:14:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:16:27,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:16:57,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:17:28,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:17:59,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:18:29,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:19:05,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:19:39,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:20:10,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:24:41,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-02 10:45:33,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-03 12:24:50,fall_detected,Person fall detected,entry_gate
+2026-04-03 12:25:01,fall_detected,Person fall detected,parking
+2026-04-03 12:25:22,fall_detected,Person fall detected,parking
+2026-04-03 12:25:43,fall_detected,Person fall detected,parking
+2026-04-03 12:25:57,fall_detected,Person fall detected,parking
+2026-04-03 12:26:08,fall_detected,Person fall detected,parking
+2026-04-03 12:26:23,fall_detected,Person fall detected,parking
+2026-04-03 12:26:43,fall_detected,Person fall detected,parking
+2026-04-03 12:26:59,fall_detected,Person fall detected,parking
+2026-04-04 12:31:16,fall_detected,Person fall detected,parking
+2026-04-04 12:31:36,fall_detected,Person fall detected,parking
+2026-04-04 12:32:15,fall_detected,Person fall detected,parking
+2026-04-04 12:32:25,fall_detected,Person fall detected,parking
+2026-04-04 12:32:51,fall_detected,Person fall detected,parking
+2026-04-04 12:36:02,fall_detected,Person fall detected,medical_center
+2026-04-04 14:37:54,fall_detected,Person fall detected,entry_gate
+2026-04-04 14:38:07,fall_detected,Person fall detected,entry_gate
+2026-04-04 14:38:18,fall_detected,Person fall detected,entry_gate
+2026-04-06 20:33:24,fall_detected,Person fall detected,entry_gate
+2026-04-07 19:27:24,fall_detected,Person fall detected,parking
+2026-04-08 08:44:32,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 08:45:15,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 08:53:35,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:01:35,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:01:43,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 09:02:23,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:02:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:03:24,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:49:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:53:03,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:53:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:54:43,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:55:16,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:55:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:58:45,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 09:59:17,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:04:23,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:04:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:07:20,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:07:50,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 10:16:52,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:26:43,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:27:15,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 10:37:06,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:37:09,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:37:28,missing_person_detected,mansure detected (72.6%),entry_gate
+2026-04-08 10:37:37,missing_person_detected,gokul detected (73.4%),entry_gate
+2026-04-08 10:37:38,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:37:53,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:38:05,missing_person_detected,mansure detected (83.5%),entry_gate
+2026-04-08 10:38:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:38:23,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:38:42,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:38:44,missing_person_detected,Gokul S detected (81.8%),entry_gate
+2026-04-08 10:39:13,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:39:16,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:39:40,missing_person_detected,mansure detected (67.0%),entry_gate
+2026-04-08 10:39:44,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:39:59,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:40:06,missing_person_detected,gokul detected (67.7%),entry_gate
+2026-04-08 10:40:21,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 10:40:22,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:40:31,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:40:52,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 10:40:53,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:40:59,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 10:41:14,missing_person_detected,Gokul S detected (84.8%),entry_gate
+2026-04-08 10:41:34,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-08 10:42:08,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-08 10:42:41,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-08 10:43:11,missing_person_detected,gokul detected (62.5%),inner_sanctum
+2026-04-08 10:43:13,missing_person_detected,mansure detected (100.0%),inner_sanctum
+2026-04-08 10:43:22,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-08 10:43:52,missing_person_detected,mansure detected (65.9%),inner_sanctum
+2026-04-08 10:44:12,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-08 10:44:27,missing_person_detected,gokul detected (74.7%),inner_sanctum
+2026-04-08 10:47:20,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:47:37,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 10:48:05,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:48:06,missing_person_detected,mansure detected (54.1%),entry_gate
+2026-04-08 10:48:27,missing_person_detected,gokul detected (83.4%),entry_gate
+2026-04-08 10:48:28,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 10:48:36,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:48:44,missing_person_detected,mansure detected (85.5%),entry_gate
+2026-04-08 10:49:01,missing_person_detected,gokul detected (80.9%),entry_gate
+2026-04-08 10:49:25,missing_person_detected,mansure detected (89.9%),entry_gate
+2026-04-08 10:51:40,missing_person_detected,mansure detected (78.7%),entry_gate
+2026-04-08 10:51:59,missing_person_detected,Gokul S detected (67.0%),entry_gate
+2026-04-08 10:52:12,missing_person_detected,gokul detected (58.5%),entry_gate
+2026-04-08 10:52:17,missing_person_detected,mansure detected (73.6%),entry_gate
+2026-04-08 10:52:47,missing_person_detected,Gokul S detected (69.2%),entry_gate
+2026-04-08 10:52:54,missing_person_detected,mansure detected (76.5%),entry_gate
+2026-04-08 10:53:21,missing_person_detected,Gokul S detected (65.5%),entry_gate
+2026-04-08 10:53:28,missing_person_detected,mansure detected (69.2%),entry_gate
+2026-04-08 10:54:04,missing_person_detected,mansure detected (67.0%),entry_gate
+2026-04-08 10:54:26,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:54:33,missing_person_detected,gokul detected (82.3%),entry_gate
+2026-04-08 10:54:49,missing_person_detected,mansure detected (71.6%),entry_gate
+2026-04-08 10:55:18,missing_person_detected,mansure detected (68.8%),entry_gate
+2026-04-08 10:55:20,missing_person_detected,Gokul S detected (90.4%),entry_gate
+2026-04-08 10:55:26,missing_person_detected,gokul detected (71.3%),entry_gate
+2026-04-08 10:55:55,missing_person_detected,mansure detected (70.0%),entry_gate
+2026-04-08 10:56:04,missing_person_detected,gokul detected (64.5%),entry_gate
+2026-04-08 10:56:10,missing_person_detected,gokul detected (72.1%),entry_gate
+2026-04-08 10:56:14,missing_person_detected,Gokul S detected (71.2%),entry_gate
+2026-04-08 10:56:28,missing_person_detected,mansure detected (72.5%),entry_gate
+2026-04-08 10:57:01,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:57:06,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 10:57:32,missing_person_detected,gokul detected (83.5%),entry_gate
+2026-04-08 10:57:43,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 10:57:47,missing_person_detected,mansure detected (69.6%),entry_gate
+2026-04-08 10:58:00,missing_person_detected,gokul detected (71.9%),entry_gate
+2026-04-08 11:01:04,missing_person_detected,gokul detected (68.1%),entry_gate
+2026-04-08 11:01:09,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:01:18,missing_person_detected,mansure detected (96.8%),entry_gate
+2026-04-08 11:01:25,missing_person_detected,gokul detected (59.2%),entry_gate
+2026-04-08 11:01:53,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:02:03,missing_person_detected,gokul detected (62.2%),entry_gate
+2026-04-08 11:02:13,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 11:02:39,missing_person_detected,mansure detected (93.8%),entry_gate
+2026-04-08 11:02:42,missing_person_detected,Gokul S detected (88.6%),entry_gate
+2026-04-08 11:02:44,missing_person_detected,gokul detected (76.1%),entry_gate
+2026-04-08 11:02:57,missing_person_detected,gokul detected (76.1%),entry_gate
+2026-04-08 11:03:12,missing_person_detected,Gokul S detected (95.2%),entry_gate
+2026-04-08 11:03:24,missing_person_detected,mansure detected (68.5%),entry_gate
+2026-04-08 11:03:40,missing_person_detected,gokul detected (91.0%),entry_gate
+2026-04-08 11:03:46,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:04:28,missing_person_detected,Gokul S detected (70.0%),entry_gate
+2026-04-08 11:04:32,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 11:04:37,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 11:04:47,missing_person_detected,gokul detected (65.8%),parking
+2026-04-08 11:04:51,missing_person_detected,gokul detected (76.0%),parking
+2026-04-08 11:05:08,missing_person_detected,mansure detected (66.7%),parking
+2026-04-08 11:05:39,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:05:40,missing_person_detected,gokul detected (93.3%),entry_gate
+2026-04-08 11:05:41,missing_person_detected,mansure detected (56.1%),entry_gate
+2026-04-08 11:06:03,missing_person_detected,gokul detected (61.0%),entry_gate
+2026-04-08 11:06:10,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:06:15,missing_person_detected,mansure detected (59.1%),entry_gate
+2026-04-08 11:06:56,missing_person_detected,mansure detected (86.3%),entry_gate
+2026-04-08 11:07:00,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:07:20,missing_person_detected,gokul detected (55.6%),entry_gate
+2026-04-08 11:07:35,missing_person_detected,mansure detected (81.6%),entry_gate
+2026-04-08 11:08:02,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:08:09,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 11:08:43,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 11:08:51,missing_person_detected,gokul detected (90.8%),entry_gate
+2026-04-08 11:08:56,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 11:09:02,missing_person_detected,mansure detected (89.4%),entry_gate
+2026-04-08 11:09:17,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 13:48:28,missing_person_detected,Gokul S detected (68.2%),parking
+2026-04-08 13:50:40,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 13:50:41,missing_person_detected,mansure detected (83.5%),entry_gate
+2026-04-08 13:50:43,missing_person_detected,Gokul S detected (83.2%),entry_gate
+2026-04-08 13:51:11,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-04-08 13:51:21,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 13:51:49,missing_person_detected,gokul detected (83.3%),entry_gate
+2026-04-08 13:51:49,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 13:51:55,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 13:52:21,missing_person_detected,Gokul S detected (61.0%),entry_gate
+2026-04-08 13:52:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 13:52:23,missing_person_detected,mansure detected (61.1%),entry_gate
+2026-04-08 13:52:44,missing_person_detected,gokul detected (99.4%),entry_gate
+2026-04-08 13:52:52,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 13:53:00,missing_person_detected,mansure detected (97.2%),entry_gate
+2026-04-08 13:53:21,missing_person_detected,mansure detected (100.0%),parking
+2026-04-08 13:53:36,missing_person_detected,gokul detected (89.6%),parking
+2026-04-08 13:53:46,missing_person_detected,mansure detected (72.9%),parking
+2026-04-08 13:53:50,missing_person_detected,gokul detected (86.5%),parking
+2026-04-08 13:53:52,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 14:00:13,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 14:00:14,missing_person_detected,mansure detected (67.9%),entry_gate
+2026-04-08 14:00:15,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 14:00:18,missing_person_detected,gokul detected (75.6%),entry_gate
+2026-04-08 14:00:51,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 14:00:56,missing_person_detected,mansure detected (96.4%),entry_gate
+2026-04-08 14:01:19,missing_person_detected,gokul detected (88.0%),entry_gate
+2026-04-08 14:01:27,missing_person_detected,mansure detected (79.4%),entry_gate
+2026-04-08 14:16:13,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 14:16:14,missing_person_detected,mansure detected (63.2%),entry_gate
+2026-04-08 14:16:16,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 14:16:45,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 14:16:49,missing_person_detected,gokul detected (68.3%),entry_gate
+2026-04-08 14:16:57,missing_person_detected,mansure detected (72.8%),entry_gate
+2026-04-08 14:17:16,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 14:17:17,missing_person_detected,gokul detected (81.8%),entry_gate
+2026-04-08 14:17:24,missing_person_detected,Gokul S detected (91.0%),entry_gate
+2026-04-08 14:17:26,missing_person_detected,mansure detected (92.7%),entry_gate
+2026-04-08 14:18:22,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 14:18:23,missing_person_detected,gokul detected (88.8%),entry_gate
+2026-04-08 14:18:26,missing_person_detected,mansure detected (94.1%),entry_gate
+2026-04-08 14:18:32,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 14:18:59,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 14:19:06,missing_person_detected,mansure detected (93.2%),entry_gate
+2026-04-08 14:19:30,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-04-08 14:19:36,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 14:19:44,missing_person_detected,gokul detected (83.3%),entry_gate
+2026-04-08 14:20:00,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 14:20:02,missing_person_detected,mansure detected (83.3%),entry_gate
+2026-04-08 16:02:17,missing_person_detected,mansure detected (82.3%),entry_gate
+2026-04-08 16:02:23,missing_person_detected,Gokul S detected (68.9%),entry_gate
+2026-04-08 16:02:56,missing_person_detected,Gokul S detected (82.4%),entry_gate
+2026-04-08 16:02:57,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 16:03:02,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 16:03:19,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:03:21,missing_person_detected,mansure detected (98.8%),parking
+2026-04-08 16:03:47,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 16:04:01,missing_person_detected,mansure detected (84.7%),parking
+2026-04-08 16:04:10,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:11:23,missing_person_detected,mansure detected (77.8%),entry_gate
+2026-04-08 16:11:23,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 16:11:28,missing_person_detected,gokul detected (78.0%),entry_gate
+2026-04-08 16:11:36,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 16:11:49,missing_person_detected,gokul detected (83.2%),entry_gate
+2026-04-08 16:11:54,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 16:11:59,missing_person_detected,gokul detected (72.4%),entry_gate
+2026-04-08 16:12:06,missing_person_detected,mansure detected (82.3%),entry_gate
+2026-04-08 16:12:09,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 16:12:26,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 16:12:41,missing_person_detected,mansure detected (86.7%),entry_gate
+2026-04-08 16:12:49,missing_person_detected,Gokul S detected (61.1%),entry_gate
+2026-04-08 16:12:56,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 16:13:07,missing_person_detected,mansure detected (93.5%),parking
+2026-04-08 16:13:14,missing_person_detected,Gokul S detected (89.2%),parking
+2026-04-08 16:13:21,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 16:13:52,missing_person_detected,Gokul S detected (70.3%),parking
+2026-04-08 16:13:59,missing_person_detected,gokul detected (52.6%),parking
+2026-04-08 16:14:12,missing_person_detected,mansure detected (74.7%),parking
+2026-04-08 16:14:33,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:14:42,missing_person_detected,gokul detected (93.0%),parking
+2026-04-08 16:14:44,missing_person_detected,mansure detected (100.0%),parking
+2026-04-08 16:15:03,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:15:15,missing_person_detected,mansure detected (100.0%),parking
+2026-04-08 16:15:49,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 16:15:51,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 16:15:54,missing_person_detected,mansure detected (96.5%),entry_gate
+2026-04-08 16:15:56,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 16:16:15,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 16:16:26,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-08 16:16:32,missing_person_detected,Gokul S detected (91.4%),entry_gate
+2026-04-08 16:16:49,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 16:16:53,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 16:16:56,missing_person_detected,mansure detected (100.0%),entry_gate
+2026-04-08 16:20:14,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 16:20:16,missing_person_detected,mansure detected (75.1%),entry_gate
+2026-04-08 16:20:27,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-08 16:20:31,missing_person_detected,mansure detected (75.0%),inner_sanctum
+2026-04-08 16:20:37,missing_person_detected,Gokul S detected (81.0%),inner_sanctum
+2026-04-08 16:21:13,missing_person_detected,mansure detected (80.5%),inner_sanctum
+2026-04-08 16:21:31,missing_person_detected,gokul detected (75.0%),inner_sanctum
+2026-04-08 16:21:54,missing_person_detected,mansure detected (67.1%),inner_sanctum
+2026-04-08 16:25:45,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-08 16:25:47,missing_person_detected,mansure detected (96.2%),entry_gate
+2026-04-08 16:25:52,missing_person_detected,Gokul S detected (82.0%),entry_gate
+2026-04-08 16:25:56,missing_person_detected,gokul detected (67.7%),entry_gate
+2026-04-08 16:26:02,missing_person_detected,gokul detected (91.5%),entry_gate
+2026-04-08 16:26:06,missing_person_detected,mansure detected (89.2%),parking
+2026-04-08 16:26:08,missing_person_detected,gokul detected (82.2%),parking
+2026-04-08 16:26:16,missing_person_detected,Gokul S detected (91.1%),parking
+2026-04-08 16:26:44,missing_person_detected,gokul detected (72.8%),parking
+2026-04-08 16:26:51,missing_person_detected,mansure detected (65.5%),parking
+2026-04-08 16:26:57,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:27:32,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:27:41,missing_person_detected,gokul detected (93.8%),parking
+2026-04-08 16:27:46,missing_person_detected,mansure detected (100.0%),parking
+2026-04-08 16:28:08,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:28:23,missing_person_detected,gokul detected (96.0%),parking
+2026-04-08 16:28:40,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 16:28:53,missing_person_detected,mansure detected (100.0%),parking
+2026-04-08 16:29:01,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 16:29:15,missing_person_detected,gokul detected (98.5%),parking
+2026-04-08 16:29:37,missing_person_detected,mansure detected (100.0%),parking
+2026-04-08 16:29:55,missing_person_detected,Gokul S detected (98.2%),parking
+2026-04-08 19:21:35,missing_person_detected,Gokul S detected (71.7%),entry_gate
+2026-04-08 19:21:37,missing_person_detected,mansure detected (67.6%),entry_gate
+2026-04-08 19:21:45,missing_person_detected,gokul detected (66.8%),entry_gate
+2026-04-08 19:22:00,missing_person_detected,gokul detected (72.7%),entry_gate
+2026-04-08 19:22:07,missing_person_detected,Gokul S detected (64.6%),entry_gate
+2026-04-08 19:22:11,missing_person_detected,mansure detected (66.7%),entry_gate
+2026-04-08 19:22:32,missing_person_detected,gokul detected (63.6%),entry_gate
+2026-04-08 19:22:36,missing_person_detected,gokul detected (63.6%),entry_gate
+2026-04-08 19:22:38,missing_person_detected,gokul detected (63.3%),parking
+2026-04-08 19:22:42,missing_person_detected,mansure detected (64.7%),parking
+2026-04-08 19:23:01,missing_person_detected,Gokul S detected (84.8%),parking
+2026-04-08 19:23:15,missing_person_detected,gokul detected (69.5%),parking
+2026-04-08 19:23:23,missing_person_detected,mansure detected (63.9%),parking
+2026-04-08 19:23:27,missing_person_detected,gokul detected (77.0%),parking
+2026-04-08 19:23:35,missing_person_detected,Gokul S detected (71.3%),parking
+2026-04-08 19:23:46,missing_person_detected,gokul detected (67.9%),parking
+2026-04-08 19:23:53,missing_person_detected,mansure detected (65.4%),parking
+2026-04-08 19:24:11,missing_person_detected,Gokul S detected (70.0%),parking
+2026-04-08 19:24:23,missing_person_detected,gokul detected (58.9%),parking
+2026-04-08 19:24:39,missing_person_detected,mansure detected (57.3%),parking
+2026-04-08 19:24:41,missing_person_detected,Gokul S detected (59.8%),parking
+2026-04-08 19:24:57,missing_person_detected,gokul detected (67.5%),parking
+2026-04-08 19:25:10,missing_person_detected,mansure detected (61.6%),parking
+2026-04-08 19:25:18,missing_person_detected,Gokul S detected (62.5%),parking
+2026-04-08 19:25:36,missing_person_detected,gokul detected (62.7%),parking
+2026-04-08 19:25:45,missing_person_detected,mansure detected (94.7%),parking
+2026-04-08 19:25:55,missing_person_detected,Gokul S detected (64.0%),parking
+2026-04-08 19:26:17,missing_person_detected,mansure detected (86.1%),parking
+2026-04-08 19:26:20,missing_person_detected,gokul detected (78.4%),parking
+2026-04-08 19:26:40,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 19:28:02,missing_person_detected,gokul detected (97.3%),entry_gate
+2026-04-08 19:28:04,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 19:28:05,missing_person_detected,mansure detected (67.5%),entry_gate
+2026-04-08 19:28:08,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 19:28:41,missing_person_detected,mansure detected (81.0%),entry_gate
+2026-04-08 19:28:56,missing_person_detected,gokul detected (74.1%),entry_gate
+2026-04-08 19:29:12,missing_person_detected,mansure detected (82.5%),entry_gate
+2026-04-08 19:29:16,missing_person_detected,mansure detected (81.0%),parking
+2026-04-08 19:29:33,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 19:29:43,missing_person_detected,gokul detected (74.7%),parking
+2026-04-08 19:33:44,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 19:34:01,missing_person_detected,gokul detected (61.3%),entry_gate
+2026-04-08 19:34:21,missing_person_detected,gokul detected (77.3%),entry_gate
+2026-04-08 19:34:32,missing_person_detected,gokul detected (67.9%),entry_gate
+2026-04-08 19:34:36,missing_person_detected,Gokul S detected (69.3%),entry_gate
+2026-04-08 19:34:58,missing_person_detected,gokul detected (79.1%),entry_gate
+2026-04-08 19:35:04,missing_person_detected,gokul detected (84.3%),entry_gate
+2026-04-08 19:35:25,missing_person_detected,Gokul S detected (68.5%),entry_gate
+2026-04-08 19:35:37,missing_person_detected,gokul detected (77.9%),entry_gate
+2026-04-08 19:35:54,missing_person_detected,gokul detected (64.5%),entry_gate
+2026-04-08 19:35:59,missing_person_detected,Gokul S detected (70.8%),entry_gate
+2026-04-08 19:36:11,missing_person_detected,gokul detected (77.3%),entry_gate
+2026-04-08 19:45:21,missing_person_detected,gokul detected (90.8%),entry_gate
+2026-04-08 19:45:23,missing_person_detected,Gokul S detected (74.6%),entry_gate
+2026-04-08 19:45:27,missing_person_detected,gokul detected (70.2%),entry_gate
+2026-04-08 19:46:00,missing_person_detected,gokul detected (70.6%),main_temple
+2026-04-08 19:46:15,missing_person_detected,Gokul S detected (100.0%),main_temple
+2026-04-08 19:46:39,missing_person_detected,gokul detected (66.9%),parking
+2026-04-08 19:46:41,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 19:46:47,missing_person_detected,gokul detected (64.7%),parking
+2026-04-08 22:53:43,missing_person_detected,Gokul S detected (96.8%),entry_gate
+2026-04-08 22:54:21,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 22:54:33,missing_person_detected,gokul detected (60.1%),entry_gate
+2026-04-08 22:54:36,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 22:54:48,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 22:54:52,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 22:55:00,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 22:57:39,missing_person_detected,Gokul S detected (83.6%),entry_gate
+2026-04-08 22:57:44,missing_person_detected,gokul detected (99.3%),entry_gate
+2026-04-08 22:57:49,missing_person_detected,gokul detected (94.7%),entry_gate
+2026-04-08 22:58:07,missing_person_detected,Gokul S detected (76.0%),parking
+2026-04-08 23:01:58,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:02:13,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 23:02:24,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 23:02:45,missing_person_detected,gokul detected (99.0%),parking
+2026-04-08 23:02:55,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 23:03:11,missing_person_detected,gokul detected (82.6%),parking
+2026-04-08 23:03:23,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 23:03:32,missing_person_detected,gokul detected (65.7%),parking
+2026-04-08 23:04:01,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 23:06:42,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:07:13,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 23:07:20,missing_person_detected,gokul detected (100.0%),parking
+2026-04-08 23:07:25,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 23:07:31,missing_person_detected,gokul detected (80.5%),parking
+2026-04-08 23:07:56,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-08 23:13:08,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:14:01,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:14:08,missing_person_detected,gokul detected (82.5%),entry_gate
+2026-04-08 23:14:34,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:15:02,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-08 23:18:28,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:18:52,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 23:19:01,missing_person_detected,Gokul S detected (58.9%),entry_gate
+2026-04-08 23:19:35,missing_person_detected,Gokul S detected (65.2%),inner_sanctum
+2026-04-08 23:19:47,missing_person_detected,gokul detected (62.9%),inner_sanctum
+2026-04-08 23:21:51,missing_person_detected,gokul detected (86.1%),entry_gate
+2026-04-08 23:22:12,missing_person_detected,Gokul S detected (72.5%),entry_gate
+2026-04-08 23:22:20,missing_person_detected,gokul detected (90.9%),entry_gate
+2026-04-08 23:22:35,missing_person_detected,gokul detected (75.0%),entry_gate
+2026-04-08 23:22:56,missing_person_detected,gokul detected (87.6%),entry_gate
+2026-04-08 23:23:11,missing_person_detected,gokul detected (85.2%),parking
+2026-04-08 23:23:16,missing_person_detected,gokul detected (87.0%),parking
+2026-04-08 23:27:31,missing_person_detected,gokul detected (80.5%),entry_gate
+2026-04-08 23:27:45,missing_person_detected,gokul detected (80.7%),entry_gate
+2026-04-08 23:28:06,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 23:28:21,missing_person_detected,gokul detected (56.3%),entry_gate
+2026-04-08 23:28:30,missing_person_detected,Gokul S detected (99.4%),entry_gate
+2026-04-08 23:32:24,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:32:31,missing_person_detected,gokul detected (92.1%),entry_gate
+2026-04-08 23:32:46,missing_person_detected,gokul detected (88.1%),entry_gate
+2026-04-08 23:33:00,missing_person_detected,Gokul S detected (85.6%),entry_gate
+2026-04-08 23:33:13,missing_person_detected,gokul detected (98.3%),entry_gate
+2026-04-08 23:35:46,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-08 23:35:47,missing_person_detected,gokul detected (77.9%),entry_gate
+2026-04-08 23:35:48,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-08 23:36:24,missing_person_detected,gokul detected (79.4%),entry_gate
+2026-04-08 23:36:32,missing_person_detected,Gokul S detected (89.1%),exit_gate
+2026-04-08 23:36:45,missing_person_detected,gokul detected (100.0%),exit_gate
+2026-04-08 23:36:51,missing_person_detected,gokul detected (100.0%),exit_gate
+2026-04-09 10:02:31,missing_person_detected,gokul detected (66.7%),entry_gate
+2026-04-09 10:02:47,missing_person_detected,Gokul S detected (65.3%),entry_gate
+2026-04-09 10:03:21,missing_person_detected,gokul detected (75.2%),entry_gate
+2026-04-09 10:03:36,missing_person_detected,Gokul S detected (89.5%),entry_gate
+2026-04-09 10:03:47,missing_person_detected,gokul detected (74.6%),parking
+2026-04-09 10:03:51,missing_person_detected,Gokul S detected (77.3%),parking
+2026-04-09 10:04:02,missing_person_detected,gokul detected (83.6%),parking
+2026-04-09 10:04:08,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:04:18,missing_person_detected,Gokul S detected (72.3%),parking
+2026-04-09 10:04:31,missing_person_detected,gokul detected (80.2%),parking
+2026-04-09 10:04:37,missing_person_detected,gokul detected (69.0%),parking
+2026-04-09 10:05:59,missing_person_detected,gokul detected (55.9%),entry_gate
+2026-04-09 10:06:07,missing_person_detected,gokul detected (78.4%),entry_gate
+2026-04-09 10:06:24,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 10:06:36,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 10:06:58,missing_person_detected,gokul detected (72.7%),entry_gate
+2026-04-09 10:07:11,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 10:07:18,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 10:07:47,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 10:07:49,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-09 10:07:54,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 10:07:57,missing_person_detected,gokul detected (72.8%),inner_sanctum
+2026-04-09 10:08:06,missing_person_detected,gokul detected (69.9%),inner_sanctum
+2026-04-09 10:08:31,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 10:08:45,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-09 10:09:06,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 10:10:06,missing_person_detected,gokul detected (93.1%),entry_gate
+2026-04-09 10:10:10,missing_person_detected,Gokul S detected (53.6%),entry_gate
+2026-04-09 10:10:28,missing_person_detected,gokul detected (90.4%),entry_gate
+2026-04-09 10:10:43,missing_person_detected,gokul detected (95.6%),entry_gate
+2026-04-09 10:10:55,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 10:11:08,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 10:11:18,missing_person_detected,gokul detected (97.3%),entry_gate
+2026-04-09 10:11:36,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 10:11:49,missing_person_detected,gokul detected (61.9%),entry_gate
+2026-04-09 10:12:10,missing_person_detected,gokul detected (59.8%),parking
+2026-04-09 10:12:18,missing_person_detected,gokul detected (62.4%),parking
+2026-04-09 10:12:23,missing_person_detected,Gokul S detected (98.9%),parking
+2026-04-09 10:12:47,missing_person_detected,gokul detected (70.0%),parking
+2026-04-09 10:12:59,missing_person_detected,Gokul S detected (57.4%),parking
+2026-04-09 10:13:14,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:13:15,missing_person_detected,gokul detected (63.7%),parking
+2026-04-09 10:13:35,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:13:48,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:14:02,missing_person_detected,gokul detected (84.7%),parking
+2026-04-09 10:14:06,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:14:29,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:14:39,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:14:43,missing_person_detected,gokul detected (55.4%),parking
+2026-04-09 10:15:01,missing_person_detected,gokul detected (74.8%),parking
+2026-04-09 10:15:12,missing_person_detected,Gokul S detected (56.0%),parking
+2026-04-09 10:15:32,missing_person_detected,gokul detected (51.7%),parking
+2026-04-09 10:15:50,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:16:04,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:16:27,missing_person_detected,gokul detected (54.0%),parking
+2026-04-09 10:16:34,missing_person_detected,Gokul S detected (55.1%),parking
+2026-04-09 10:17:14,missing_person_detected,Gokul S detected (70.5%),parking
+2026-04-09 10:17:35,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:18:01,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:18:53,missing_person_detected,gokul detected (98.7%),parking
+2026-04-09 10:19:04,missing_person_detected,gokul detected (59.7%),parking
+2026-04-09 10:19:08,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:19:45,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:20:15,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:20:50,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:21:33,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:21:50,missing_person_detected,gokul detected (56.4%),parking
+2026-04-09 10:22:13,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:22:42,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:23:17,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:23:44,missing_person_detected,gokul detected (70.2%),parking
+2026-04-09 10:23:47,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:24:19,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:24:25,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:24:30,missing_person_detected,gokul detected (92.8%),parking
+2026-04-09 10:24:53,missing_person_detected,Gokul S detected (59.7%),parking
+2026-04-09 10:25:26,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:25:54,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:25:57,missing_person_detected,gokul detected (78.0%),parking
+2026-04-09 10:26:26,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 10:26:36,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 10:27:49,missing_person_detected,gokul detected (68.6%),entry_gate
+2026-04-09 10:27:53,missing_person_detected,Gokul S detected (57.3%),entry_gate
+2026-04-09 10:28:29,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 10:28:49,missing_person_detected,gokul detected (79.6%),entry_gate
+2026-04-09 14:00:08,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:00:44,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:01:00,missing_person_detected,gokul detected (96.2%),entry_gate
+2026-04-09 14:01:09,missing_person_detected,gokul detected (92.0%),entry_gate
+2026-04-09 14:01:14,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:05:29,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:06:00,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 14:06:03,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:06:34,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:07:05,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:07:24,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 14:07:36,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:07:51,missing_person_detected,Mike_Davis detected (100.0%),entry_gate
+2026-04-09 14:19:45,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-09 14:19:47,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 14:19:49,missing_person_detected,gokul detected (78.5%),entry_gate
+2026-04-09 14:19:51,missing_person_detected,Gokul S detected (73.2%),entry_gate
+2026-04-09 14:19:56,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:24:50,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:29:37,crowd_exceeded,Crowd exceeded in entry_gate: 6,entry_gate
+2026-04-09 14:29:38,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:29:46,missing_person_detected,gokul detected (99.2%),entry_gate
+2026-04-09 14:29:50,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:30:26,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:30:58,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:35:29,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-09 14:35:30,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:35:42,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 14:35:51,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 14:36:00,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:36:01,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-09 14:36:07,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:36:40,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:36:43,missing_person_detected,Gokul S detected (100.0%),main_temple
+2026-04-09 14:36:47,missing_person_detected,gokul detected (100.0%),main_temple
+2026-04-09 14:36:59,missing_person_detected,gokul detected (100.0%),main_temple
+2026-04-09 14:37:14,missing_person_detected,Gokul S detected (100.0%),main_temple
+2026-04-09 14:37:20,missing_person_detected,gokul detected (89.1%),main_temple
+2026-04-09 14:37:43,missing_person_detected,Gokul S detected (100.0%),main_temple
+2026-04-09 14:37:52,missing_person_detected,gokul detected (100.0%),main_temple
+2026-04-09 14:38:13,missing_person_detected,Gokul S detected (94.2%),inner_sanctum
+2026-04-09 14:38:16,missing_person_detected,gokul detected (77.6%),inner_sanctum
+2026-04-09 14:38:48,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 14:38:57,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-09 14:42:53,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:42:56,missing_person_detected,gokul detected (88.8%),entry_gate
+2026-04-09 14:42:57,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-09 14:42:58,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (58.7%),entry_gate
+2026-04-09 14:43:02,missing_person_detected,gokul detected (60.4%),entry_gate
+2026-04-09 14:43:29,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:43:46,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-09 14:43:54,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 14:43:58,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 14:44:27,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-09 14:44:29,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:43:25,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:43:36,missing_person_detected,gokul detected (65.8%),entry_gate
+2026-04-09 15:43:42,missing_person_detected,gokul detected (69.4%),entry_gate
+2026-04-09 15:43:56,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:44:16,missing_person_detected,gokul detected (68.3%),entry_gate
+2026-04-09 15:44:24,missing_person_detected,gokul detected (79.3%),entry_gate
+2026-04-09 15:44:27,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:44:47,missing_person_detected,gokul detected (67.8%),entry_gate
+2026-04-09 15:44:58,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:45:05,missing_person_detected,gokul detected (53.9%),entry_gate
+2026-04-09 15:45:24,missing_person_detected,gokul detected (65.2%),entry_gate
+2026-04-09 15:45:28,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:45:38,missing_person_detected,gokul detected (55.9%),entry_gate
+2026-04-09 15:51:30,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-09 15:51:32,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 15:51:40,missing_person_detected,gokul detected (84.4%),entry_gate
+2026-04-09 15:51:46,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 15:51:49,missing_person_detected,gokul detected (57.2%),parking
+2026-04-09 15:52:17,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 15:52:18,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 15:52:19,missing_person_detected,gokul detected (80.3%),parking
+2026-04-09 15:52:48,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 15:52:50,missing_person_detected,gokul detected (78.8%),parking
+2026-04-09 15:52:56,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 15:53:21,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 15:53:23,missing_person_detected,gokul detected (58.1%),parking
+2026-04-09 15:53:28,missing_person_detected,gokul detected (88.9%),parking
+2026-04-09 15:53:52,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 15:53:54,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 15:54:13,missing_person_detected,gokul detected (94.5%),parking
+2026-04-09 15:54:27,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 15:54:33,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (72.6%),parking
+2026-04-09 15:54:36,missing_person_detected,gokul detected (65.2%),parking
+2026-04-09 16:01:40,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-09 16:01:40,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 16:01:41,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 16:01:46,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 16:02:10,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-09 16:02:13,missing_person_detected,Gokul S detected (98.6%),entry_gate
+2026-04-09 16:02:20,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-09 16:02:23,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 16:02:26,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 16:02:28,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (97.1%),parking
+2026-04-09 16:02:32,missing_person_detected,gokul detected (97.7%),parking
+2026-04-09 16:02:53,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 16:03:05,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 20:39:35,missing_person_detected,gokul detected (88.4%),entry_gate
+2026-04-09 20:39:36,missing_person_detected,Gokul S detected (86.3%),entry_gate
+2026-04-09 20:39:38,missing_person_detected,gokul detected (73.2%),entry_gate
+2026-04-09 20:39:40,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (81.4%),entry_gate
+2026-04-09 20:40:06,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:40:08,missing_person_detected,gokul detected (92.0%),parking
+2026-04-09 20:40:14,missing_person_detected,gokul detected (88.6%),entry_gate
+2026-04-09 20:40:17,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 20:40:19,missing_person_detected,gokul detected (90.6%),entry_gate
+2026-04-09 20:40:32,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (90.7%),entry_gate
+2026-04-09 20:40:44,missing_person_detected,gokul detected (89.4%),entry_gate
+2026-04-09 20:41:04,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 20:41:09,crowd_exceeded,Crowd exceeded in entry_gate: 5,entry_gate
+2026-04-09 20:41:18,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 20:41:27,missing_person_detected,gokul detected (71.2%),entry_gate
+2026-04-09 20:41:30,missing_person_detected,Gokul S detected (80.3%),entry_gate
+2026-04-09 20:41:55,missing_person_detected,gokul detected (75.8%),entry_gate
+2026-04-09 20:41:56,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-09 20:45:24,missing_person_detected,gokul detected (74.6%),entry_gate
+2026-04-09 20:45:27,missing_person_detected,gokul detected (63.2%),entry_gate
+2026-04-09 20:45:28,missing_person_detected,Gokul S detected (73.3%),entry_gate
+2026-04-09 20:45:54,missing_person_detected,gokul detected (95.7%),entry_gate
+2026-04-09 20:45:59,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 20:46:01,missing_person_detected,gokul detected (85.5%),entry_gate
+2026-04-09 20:46:15,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (90.1%),entry_gate
+2026-04-09 20:46:24,missing_person_detected,gokul detected (71.1%),entry_gate
+2026-04-09 20:46:32,missing_person_detected,gokul detected (92.3%),entry_gate
+2026-04-09 20:46:34,missing_person_detected,Gokul S detected (71.2%),entry_gate
+2026-04-09 20:46:38,missing_person_detected,gokul detected (83.8%),parking
+2026-04-09 20:46:43,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:47:04,missing_person_detected,gokul detected (67.0%),parking
+2026-04-09 20:47:11,missing_person_detected,gokul detected (80.3%),parking
+2026-04-09 20:47:19,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:47:40,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (74.1%),parking
+2026-04-09 20:47:44,missing_person_detected,gokul detected (79.1%),parking
+2026-04-09 20:47:45,missing_person_detected,gokul detected (75.3%),parking
+2026-04-09 20:47:53,missing_person_detected,Gokul S detected (67.6%),parking
+2026-04-09 20:48:16,missing_person_detected,gokul detected (68.9%),parking
+2026-04-09 20:48:17,missing_person_detected,gokul detected (70.5%),parking
+2026-04-09 20:48:23,missing_person_detected,Gokul S detected (68.3%),parking
+2026-04-09 20:48:50,missing_person_detected,gokul detected (62.0%),parking
+2026-04-09 20:48:55,missing_person_detected,gokul detected (62.8%),parking
+2026-04-09 20:48:56,missing_person_detected,Gokul S detected (63.8%),parking
+2026-04-09 20:49:26,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:49:28,missing_person_detected,gokul detected (63.9%),parking
+2026-04-09 20:49:33,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 20:49:59,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:50:01,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 20:50:30,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:50:41,missing_person_detected,gokul detected (66.7%),parking
+2026-04-09 20:51:01,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:51:16,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (68.1%),parking
+2026-04-09 20:51:19,missing_person_detected,gokul detected (78.6%),parking
+2026-04-09 20:51:32,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:51:51,missing_person_detected,gokul detected (71.3%),parking
+2026-04-09 20:52:01,missing_person_detected,gokul detected (66.9%),parking
+2026-04-09 20:52:02,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:52:36,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:52:52,missing_person_detected,gokul detected (86.1%),parking
+2026-04-09 20:52:55,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (71.6%),parking
+2026-04-09 20:53:00,missing_person_detected,gokul detected (77.7%),parking
+2026-04-09 20:53:08,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:53:19,missing_person_detected,gokul detected (77.0%),parking
+2026-04-09 20:53:46,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (67.4%),parking
+2026-04-09 20:53:49,missing_person_detected,gokul detected (82.1%),parking
+2026-04-09 20:53:50,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:54:21,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 20:54:21,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:54:26,missing_person_detected,gokul detected (68.8%),parking
+2026-04-09 20:54:56,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:55:02,missing_person_detected,gokul detected (61.8%),parking
+2026-04-09 20:55:03,missing_person_detected,gokul detected (83.7%),parking
+2026-04-09 20:55:24,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:55:55,missing_person_detected,Gokul S detected (83.6%),parking
+2026-04-09 20:55:56,missing_person_detected,gokul detected (58.6%),parking
+2026-04-09 20:55:57,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (60.6%),parking
+2026-04-09 20:56:03,missing_person_detected,gokul detected (82.6%),parking
+2026-04-09 20:56:28,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:56:47,missing_person_detected,gokul detected (73.6%),parking
+2026-04-09 20:56:56,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (69.7%),parking
+2026-04-09 20:56:57,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:57:19,missing_person_detected,gokul detected (76.6%),parking
+2026-04-09 20:57:24,missing_person_detected,gokul detected (76.6%),parking
+2026-04-09 20:57:32,missing_person_detected,Gokul S detected (76.0%),parking
+2026-04-09 20:57:52,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 20:57:57,missing_person_detected,gokul detected (62.0%),parking
+2026-04-09 20:58:01,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (78.2%),parking
+2026-04-09 20:58:04,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:58:23,missing_person_detected,gokul detected (98.7%),parking
+2026-04-09 20:58:34,missing_person_detected,gokul detected (87.8%),parking
+2026-04-09 20:58:35,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:59:02,missing_person_detected,gokul detected (68.9%),parking
+2026-04-09 20:59:05,missing_person_detected,gokul detected (63.6%),parking
+2026-04-09 20:59:06,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (69.5%),parking
+2026-04-09 20:59:10,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:59:39,missing_person_detected,gokul detected (100.0%),parking
+2026-04-09 20:59:40,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 20:59:46,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (91.0%),parking
+2026-04-09 20:59:50,missing_person_detected,gokul detected (56.8%),parking
+2026-04-09 21:00:05,missing_person_detected,gokul detected (61.0%),parking
+2026-04-09 21:00:13,missing_person_detected,Gokul S detected (75.9%),parking
+2026-04-09 21:00:22,missing_person_detected,gokul detected (64.8%),parking
+2026-04-09 21:00:40,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-09 21:00:54,missing_person_detected,gokul detected (65.4%),parking
+2026-04-09 21:01:18,missing_person_detected,Gokul S detected (75.0%),entry_gate
+2026-04-09 21:01:19,missing_person_detected,gokul detected (63.6%),entry_gate
+2026-04-09 21:01:24,missing_person_detected,gokul detected (69.7%),entry_gate
+2026-04-09 21:01:25,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (60.6%),entry_gate
+2026-04-09 21:01:48,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-09 21:05:11,missing_person_detected,Gokul S detected (64.2%),entry_gate
+2026-04-09 21:05:17,missing_person_detected,gokul detected (67.6%),entry_gate
+2026-04-09 21:05:25,missing_person_detected,gokul detected (62.4%),entry_gate
+2026-04-09 21:07:35,missing_person_detected,Gokul S detected (72.0%),entry_gate
+2026-04-09 21:07:37,missing_person_detected,gokul detected (61.1%),entry_gate
+2026-04-09 21:07:49,missing_person_detected,Gokul S detected (68.6%),parking
+2026-04-09 21:07:52,missing_person_detected,gokul detected (59.5%),parking
+2026-04-09 21:07:55,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (65.0%),parking
+2026-04-09 21:07:57,missing_person_detected,gokul detected (56.8%),parking
+2026-04-09 21:07:59,missing_person_detected,gokul detected (63.7%),inner_sanctum
+2026-04-09 21:08:00,missing_person_detected,Gokul S detected (57.1%),inner_sanctum
+2026-04-09 21:08:22,missing_person_detected,gokul detected (63.2%),inner_sanctum
+2026-04-09 21:11:31,missing_person_detected,gokul detected (71.3%),entry_gate
+2026-04-09 21:12:31,missing_person_detected,Gokul S detected (60.6%),entry_gate
+2026-04-09 21:12:33,missing_person_detected,gokul detected (73.7%),entry_gate
+2026-04-09 21:12:37,missing_person_detected,gokul detected (69.1%),entry_gate
+2026-04-09 21:13:02,missing_person_detected,Gokul S detected (68.2%),entry_gate
+2026-04-10 09:22:56,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 09:23:06,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 09:23:21,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 09:23:26,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 09:23:46,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-10 09:23:47,missing_person_detected,gokul detected (95.2%),parking
+2026-04-10 09:24:14,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-10 09:24:26,missing_person_detected,gokul detected (100.0%),parking
+2026-04-10 09:24:44,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-10 14:27:34,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:27:36,missing_person_detected,gokul detected (86.6%),entry_gate
+2026-04-10 14:27:37,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:28:09,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:28:19,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (67.5%),entry_gate
+2026-04-10 14:28:49,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:28:49,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:30:40,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:30:57,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:31:11,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:31:19,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (67.0%),entry_gate
+2026-04-10 14:31:25,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-10 14:31:29,missing_person_detected,gokul detected (94.6%),inner_sanctum
+2026-04-10 14:31:44,missing_person_detected,gokul detected (72.3%),inner_sanctum
+2026-04-10 14:31:59,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-10 14:31:59,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-10 14:32:29,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-10 14:32:32,missing_person_detected,gokul detected (60.2%),inner_sanctum
+2026-04-10 14:32:39,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-10 14:32:44,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:33:00,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:33:11,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 14:33:17,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:42:08,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:42:11,missing_person_detected,Gokul S detected (87.8%),entry_gate
+2026-04-10 14:42:17,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 14:42:42,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:42:43,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:42:46,missing_person_detected,gokul detected (80.8%),entry_gate
+2026-04-10 14:43:06,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 14:43:13,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:43:14,crowd_exceeded,Crowd exceeded in entry_gate: 4,entry_gate
+2026-04-10 14:45:44,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:45:45,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 14:46:13,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 14:46:15,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 19:28:10,missing_person_detected,gokul detected (66.3%),entry_gate
+2026-04-10 19:28:11,missing_person_detected,Gokul S detected (59.3%),entry_gate
+2026-04-10 19:28:19,missing_person_detected,gokul detected (65.5%),entry_gate
+2026-04-10 19:28:47,missing_person_detected,Gokul S detected (88.3%),entry_gate
+2026-04-10 19:28:58,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 19:29:14,missing_person_detected,gokul detected (70.7%),entry_gate
+2026-04-10 19:29:18,missing_person_detected,Gokul S detected (70.7%),entry_gate
+2026-04-10 19:29:24,missing_person_detected,gokul detected (75.9%),entry_gate
+2026-04-10 19:29:46,missing_person_detected,gokul detected (65.9%),entry_gate
+2026-04-10 19:29:48,missing_person_detected,Gokul S detected (93.9%),entry_gate
+2026-04-10 19:29:55,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (80.7%),entry_gate
+2026-04-10 19:30:11,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 19:30:20,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 19:30:26,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-10 19:30:28,missing_person_detected,gokul detected (99.3%),entry_gate
+2026-04-10 19:30:46,missing_person_detected,gokul detected (73.0%),entry_gate
+2026-04-10 19:30:46,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (69.6%),entry_gate
+2026-04-10 19:30:56,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 19:40:37,missing_person_detected,gokul detected (55.7%),entry_gate
+2026-04-10 19:40:38,missing_person_detected,Gokul S detected (59.0%),entry_gate
+2026-04-10 19:40:44,missing_person_detected,gokul detected (67.2%),entry_gate
+2026-04-10 19:41:06,missing_person_detected,gokul detected (67.2%),entry_gate
+2026-04-10 19:41:09,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 19:41:15,missing_person_detected,gokul detected (72.0%),exit_gate
+2026-04-10 19:41:22,missing_person_detected,Gokul S detected (67.8%),exit_gate
+2026-04-10 19:41:23,missing_person_detected,gokul detected (73.4%),exit_gate
+2026-04-10 19:41:30,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-10 19:41:46,missing_person_detected,gokul detected (61.3%),exit_gate
+2026-04-10 19:41:56,missing_person_detected,Gokul S detected (63.3%),exit_gate
+2026-04-10 19:42:00,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-10 19:42:05,missing_person_detected,gokul detected (63.3%),exit_gate
+2026-04-10 19:42:19,missing_person_detected,gokul detected (64.1%),exit_gate
+2026-04-10 19:42:26,missing_person_detected,Gokul S detected (55.1%),exit_gate
+2026-04-10 19:42:31,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-10 19:42:36,missing_person_detected,gokul detected (58.9%),exit_gate
+2026-04-10 19:49:31,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 19:49:31,missing_person_detected,gokul detected (60.1%),entry_gate
+2026-04-10 19:49:36,missing_person_detected,gokul detected (62.7%),entry_gate
+2026-04-10 19:49:54,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (76.3%),entry_gate
+2026-04-10 19:50:01,missing_person_detected,Gokul S detected (72.4%),entry_gate
+2026-04-10 19:50:04,missing_person_detected,gokul detected (63.5%),entry_gate
+2026-04-10 19:50:12,missing_person_detected,gokul detected (58.9%),entry_gate
+2026-04-10 19:50:32,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 19:50:37,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (59.0%),entry_gate
+2026-04-10 19:50:46,missing_person_detected,gokul detected (56.1%),entry_gate
+2026-04-10 19:50:47,missing_person_detected,gokul detected (58.8%),entry_gate
+2026-04-10 19:50:55,missing_person_detected,Gokul S detected (100.0%),main_temple
+2026-04-10 19:50:58,missing_person_detected,gokul detected (57.3%),main_temple
+2026-04-10 19:51:01,missing_person_detected,gokul detected (66.7%),main_temple
+2026-04-10 19:51:11,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (58.3%),main_temple
+2026-04-10 19:55:30,missing_person_detected,Gokul S detected (57.4%),entry_gate
+2026-04-10 19:55:34,missing_person_detected,gokul detected (59.9%),entry_gate
+2026-04-10 19:55:40,missing_person_detected,gokul detected (61.9%),entry_gate
+2026-04-10 19:56:04,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 19:56:06,missing_person_detected,gokul detected (67.0%),entry_gate
+2026-04-10 19:56:32,missing_person_detected,gokul detected (62.1%),entry_gate
+2026-04-10 19:56:37,missing_person_detected,Gokul S detected (66.3%),entry_gate
+2026-04-10 20:02:32,missing_person_detected,gokul detected (74.1%),entry_gate
+2026-04-10 20:02:34,missing_person_detected,Gokul S detected (59.8%),entry_gate
+2026-04-10 20:02:37,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (54.0%),entry_gate
+2026-04-10 20:02:54,missing_person_detected,gokul detected (70.1%),entry_gate
+2026-04-10 20:03:00,missing_person_detected,gokul detected (61.1%),entry_gate
+2026-04-10 20:03:06,missing_person_detected,Gokul S detected (60.4%),entry_gate
+2026-04-10 20:03:17,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-10 20:03:17,missing_person_detected,gokul detected (66.0%),exit_gate
+2026-04-10 20:03:19,missing_person_detected,gokul detected (61.6%),exit_gate
+2026-04-10 20:03:25,missing_person_detected,Gokul S detected (100.0%),exit_gate
+2026-04-10 20:20:48,missing_person_detected,gokul detected (67.5%),entry_gate
+2026-04-10 20:20:49,missing_person_detected,gokul detected (66.7%),entry_gate
+2026-04-10 20:20:50,missing_person_detected,Gokul S detected (61.4%),entry_gate
+2026-04-10 20:21:21,missing_person_detected,Gokul S detected (66.3%),entry_gate
+2026-04-10 20:21:22,missing_person_detected,gokul detected (64.8%),entry_gate
+2026-04-10 20:21:24,missing_person_detected,gokul detected (64.5%),entry_gate
+2026-04-10 20:21:50,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 20:21:53,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 20:22:04,missing_person_detected,gokul detected (96.9%),entry_gate
+2026-04-10 20:22:19,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (66.0%),entry_gate
+2026-04-10 20:22:26,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-10 20:22:30,missing_person_detected,Gokul S detected (67.3%),entry_gate
+2026-04-10 20:22:34,missing_person_detected,gokul detected (69.9%),entry_gate
+2026-04-10 20:33:08,missing_person_detected,gokul detected (56.7%),entry_gate
+2026-04-10 20:33:09,missing_person_detected,gokul detected (56.6%),entry_gate
+2026-04-10 20:33:14,missing_person_detected,Gokul S detected (67.5%),entry_gate
+2026-04-10 20:36:14,missing_person_detected,gokul detected (63.5%),entry_gate
+2026-04-10 20:36:20,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 20:36:44,missing_person_detected,gokul detected (62.9%),entry_gate
+2026-04-10 20:36:46,missing_person_detected,gokul detected (67.5%),entry_gate
+2026-04-10 20:36:55,missing_person_detected,Gokul S detected (64.9%),entry_gate
+2026-04-10 20:38:17,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-10 20:38:19,missing_person_detected,gokul detected (62.4%),entry_gate
+2026-04-10 20:38:25,missing_person_detected,gokul detected (66.0%),entry_gate
+2026-04-10 20:38:51,missing_person_detected,Gokul S detected (96.4%),entry_gate
+2026-04-10 20:38:57,missing_person_detected,gokul detected (59.3%),entry_gate
+2026-04-10 20:39:07,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-04-10 20:39:11,missing_person_detected,gokul detected (64.5%),entry_gate
+2026-04-10 20:39:29,missing_person_detected,Gokul S detected (62.7%),entry_gate
+2026-04-10 20:39:31,missing_person_detected,gokul detected (62.2%),entry_gate
+2026-04-10 20:39:39,crowd_exceeded,Crowd exceeded in entry_gate: 1,entry_gate
+2026-04-10 20:39:59,missing_person_detected,gokul detected (61.7%),entry_gate
+2026-04-10 20:40:03,missing_person_detected,gokul detected (59.0%),entry_gate
+2026-04-10 20:42:05,missing_person_detected,Gokul S detected (64.7%),entry_gate
+2026-04-10 20:42:08,missing_person_detected,gokul detected (57.6%),entry_gate
+2026-04-10 20:42:09,missing_person_detected,gokul detected (66.1%),entry_gate
+2026-04-10 20:42:39,missing_person_detected,gokul detected (61.5%),entry_gate
+2026-04-10 20:42:41,missing_person_detected,gokul detected (59.4%),entry_gate
+2026-04-10 20:42:56,missing_person_detected,Gokul S detected (61.8%),entry_gate
+2026-04-10 20:43:12,missing_person_detected,gokul detected (64.4%),entry_gate
+2026-04-11 11:41:35,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-11 11:41:39,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-11 11:42:06,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-11 11:42:36,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-11 11:42:38,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-11 11:42:41,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-11 11:43:07,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-11 11:43:12,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-11 11:43:24,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-11 11:43:44,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-11 11:43:47,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-11 11:43:54,missing_person_detected,gokul detected (100.0%),inner_sanctum
+2026-04-11 11:44:18,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-11 11:44:49,missing_person_detected,Gokul S detected (100.0%),inner_sanctum
+2026-04-11 11:45:04,crowd_exceeded,Crowd exceeded in exit_gate: 2,exit_gate
+2026-04-11 11:45:05,missing_person_detected,Gokul S detected (100.0%),exit_gate
+2026-04-11 11:45:07,missing_person_detected,gokul detected (60.0%),exit_gate
+2026-04-11 11:45:09,missing_person_detected,gokul detected (100.0%),exit_gate
+2026-04-11 11:45:35,crowd_exceeded,Crowd exceeded in exit_gate: 2,exit_gate
+2026-04-11 11:45:38,missing_person_detected,Gokul S detected (100.0%),exit_gate
+2026-04-11 11:52:05,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-11 11:52:07,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-21 10:25:45,missing_person_detected,Gokul S detected (80.6%),entry_gate
+2026-04-21 10:25:45,missing_person_detected,gokul detected (92.1%),entry_gate
+2026-04-21 10:25:51,missing_person_detected,gokul detected (65.3%),entry_gate
+2026-04-21 10:26:13,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-21 10:26:16,missing_person_detected,gokul detected (72.1%),entry_gate
+2026-04-21 10:26:17,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-21 10:26:17,missing_person_detected,Gokul S detected (96.4%),exit_gate
+2026-04-21 10:26:23,missing_person_detected,gokul detected (83.9%),exit_gate
+2026-04-21 10:26:47,missing_person_detected,gokul detected (72.0%),exit_gate
+2026-04-21 10:26:48,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-21 10:26:52,missing_person_detected,Gokul S detected (72.7%),exit_gate
+2026-04-21 10:26:56,missing_person_detected,gokul detected (81.9%),exit_gate
+2026-04-21 10:27:04,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (72.8%),exit_gate
+2026-04-21 10:27:18,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-21 10:27:22,missing_person_detected,Gokul S detected (72.7%),exit_gate
+2026-04-21 10:27:24,missing_person_detected,gokul detected (80.2%),exit_gate
+2026-04-21 10:27:26,missing_person_detected,gokul detected (86.0%),exit_gate
+2026-04-21 10:27:42,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (79.1%),exit_gate
+2026-04-21 10:27:48,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-21 10:27:51,missing_person_detected,Gokul S detected (69.7%),exit_gate
+2026-04-21 10:28:00,missing_person_detected,gokul detected (89.1%),exit_gate
+2026-04-21 10:28:18,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-21 10:28:24,missing_person_detected,Gokul S detected (81.5%),exit_gate
+2026-04-21 10:28:33,missing_person_detected,gokul detected (100.0%),exit_gate
+2026-04-21 10:28:40,missing_person_detected,gokul detected (68.3%),exit_gate
+2026-04-21 10:28:48,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-21 10:28:57,missing_person_detected,Gokul S detected (80.8%),exit_gate
+2026-04-21 10:29:04,missing_person_detected,gokul detected (91.0%),exit_gate
+2026-04-21 10:29:14,missing_person_detected,gokul detected (90.4%),exit_gate
+2026-04-21 10:29:19,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-24 13:55:58,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 13:55:58,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 13:56:00,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 13:56:29,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 13:56:30,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 13:56:31,missing_person_detected,Gokul S detected (100.0%),parking
+2026-04-24 13:56:36,missing_person_detected,gokul detected (100.0%),parking
+2026-04-24 13:56:46,missing_person_detected,gokul detected (100.0%),parking
+2026-04-24 14:02:01,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:02:13,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:02:20,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:02:22,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (100.0%),entry_gate
+2026-04-24 14:02:26,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:02:29,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:02:57,missing_person_detected,gokul detected (96.9%),entry_gate
+2026-04-24 14:02:59,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (98.6%),entry_gate
+2026-04-24 14:03:01,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:03:04,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:09:15,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:09:16,missing_person_detected,Gokul S detected (84.5%),entry_gate
+2026-04-24 14:09:20,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:09:44,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:09:49,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:09:55,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:10:00,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:20:30,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:20:31,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:20:38,missing_person_detected,gokul detected (60.1%),entry_gate
+2026-04-24 14:20:54,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (95.9%),entry_gate
+2026-04-24 14:21:02,missing_person_detected,Gokul S detected (74.9%),entry_gate
+2026-04-24 14:21:10,missing_person_detected,gokul detected (85.2%),entry_gate
+2026-04-24 14:21:26,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:21:33,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:21:42,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:21:47,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (100.0%),entry_gate
+2026-04-24 14:22:04,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 14:22:16,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:22:19,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 14:22:20,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (99.2%),entry_gate
+2026-04-24 14:22:40,missing_person_detected,Gokul S detected (65.4%),entry_gate
+2026-04-24 14:22:49,missing_person_detected,gokul detected (67.0%),entry_gate
+2026-04-24 19:05:45,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:06:15,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:10:38,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:12:56,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:13:18,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 19:13:24,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:13:55,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:14:20,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 19:14:25,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:14:46,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 19:14:56,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:15:04,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 19:15:27,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:15:57,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:16:28,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:24:17,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:24:48,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:25:19,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:25:49,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:34:35,missing_person_detected,gokul detected (91.3%),entry_gate
+2026-04-24 19:34:38,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:34:43,missing_person_detected,gokul detected (91.8%),entry_gate
+2026-04-24 19:35:10,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 19:35:14,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:35:43,missing_person_detected,Gokul S detected (92.2%),entry_gate
+2026-04-24 19:35:46,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (92.7%),entry_gate
+2026-04-24 19:35:55,missing_person_detected,gokul detected (84.8%),entry_gate
+2026-04-24 19:36:15,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 19:36:47,crowd_exceeded,Crowd exceeded in exit_gate: 1,exit_gate
+2026-04-24 19:36:53,missing_person_detected,Gokul S detected (100.0%),exit_gate
+2026-04-24 20:35:50,missing_person_detected,gokul detected (90.3%),entry_gate
+2026-04-24 20:36:36,missing_person_detected,gokul detected (87.7%),entry_gate
+2026-04-24 20:37:42,missing_person_detected,gokul detected (74.4%),exit_gate
+2026-04-24 20:38:06,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (100.0%),exit_gate
+2026-04-24 20:38:16,missing_person_detected,gokul detected (84.9%),exit_gate
+2026-04-24 20:42:47,missing_person_detected,gokul detected (69.9%),entry_gate
+2026-04-24 20:42:59,missing_person_detected,gokul detected (70.6%),entry_gate
+2026-04-24 20:43:20,missing_person_detected,gokul detected (77.0%),entry_gate
+2026-04-24 20:47:07,missing_person_detected,gokul detected (63.1%),entry_gate
+2026-04-24 20:47:42,missing_person_detected,gokul detected (66.8%),entry_gate
+2026-04-24 20:47:57,missing_person_detected,dhanush detected (100.0%),entry_gate
+2026-04-24 20:49:09,missing_person_detected,gokul detected (84.7%),entry_gate
+2026-04-24 20:49:18,missing_person_detected,gokul detected (79.1%),entry_gate
+2026-04-24 20:52:13,missing_person_detected,gokul detected (73.4%),entry_gate
+2026-04-24 20:53:55,missing_person_detected,gokul detected (73.2%),entry_gate
+2026-04-24 20:53:56,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (63.0%),entry_gate
+2026-04-24 20:53:56,missing_person_detected,dhanush detected (62.8%),entry_gate
+2026-04-24 20:53:58,missing_person_detected,gokul detected (63.3%),entry_gate
+2026-04-24 20:53:59,missing_person_detected,Gokul S detected (69.7%),entry_gate
+2026-04-24 20:54:12,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 20:54:25,missing_person_detected,gokul detected (71.3%),entry_gate
+2026-04-24 20:54:29,missing_person_detected,dhanush detected (67.8%),entry_gate
+2026-04-24 20:54:30,missing_person_detected,gokul detected (77.8%),entry_gate
+2026-04-24 20:54:30,missing_person_detected,Gokul S detected (81.0%),entry_gate
+2026-04-24 20:54:35,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (68.6%),entry_gate
+2026-04-24 20:54:56,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-24 20:55:01,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 20:55:07,missing_person_detected,dhanush detected (73.8%),entry_gate
+2026-04-24 20:55:08,missing_person_detected,gokul detected (71.4%),entry_gate
+2026-04-24 20:55:11,missing_person_detected,gokul detected (81.5%),entry_gate
+2026-04-24 20:55:11,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (75.0%),entry_gate
+2026-04-24 21:02:39,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (75.0%),entry_gate
+2026-04-24 21:02:44,missing_person_detected,gokul detected (84.2%),entry_gate
+2026-04-24 21:02:47,missing_person_detected,dhanush detected (73.3%),entry_gate
+2026-04-24 21:02:52,missing_person_detected,gokul detected (65.1%),entry_gate
+2026-04-24 21:08:40,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (77.1%),entry_gate
+2026-04-24 21:08:43,missing_person_detected,gokul detected (63.6%),entry_gate
+2026-04-24 21:08:47,missing_person_detected,Gokul S detected (75.0%),entry_gate
+2026-04-24 21:08:47,missing_person_detected,gokul detected (74.1%),entry_gate
+2026-04-24 21:11:39,missing_person_detected,Gokul S detected (69.8%),entry_gate
+2026-04-24 21:11:40,missing_person_detected,gokul detected (70.5%),entry_gate
+2026-04-24 21:11:43,missing_person_detected,gokul detected (60.6%),entry_gate
+2026-04-24 21:11:46,missing_person_detected,dhanush detected (72.8%),entry_gate
+2026-04-24 21:12:00,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (72.2%),entry_gate
+2026-04-24 21:12:10,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 21:12:20,missing_person_detected,gokul detected (71.0%),entry_gate
+2026-04-24 21:12:21,missing_person_detected,gokul detected (70.6%),entry_gate
+2026-04-24 21:12:41,missing_person_detected,Gokul S detected (100.0%),entry_gate
+2026-04-24 21:13:09,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (91.5%),entry_gate
+2026-04-24 21:13:11,missing_person_detected,Gokul S detected (70.2%),entry_gate
+2026-04-24 21:20:23,missing_person_detected,gokul detected (63.3%),entry_gate
+2026-04-24 21:20:25,missing_person_detected,dhanush detected (62.9%),entry_gate
+2026-04-24 21:20:41,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (57.2%),entry_gate
+2026-04-24 21:20:52,missing_person_detected,gokul detected (52.7%),entry_gate
+2026-04-25 10:47:45,missing_person_detected,dhanush detected (95.7%),entry_gate
+2026-04-25 10:47:46,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (100.0%),entry_gate
+2026-04-25 10:47:49,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 10:48:17,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-25 10:48:21,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 10:48:27,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (100.0%),entry_gate
+2026-04-25 10:48:48,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-25 10:48:50,missing_person_detected,dhanush detected (100.0%),entry_gate
+2026-04-25 10:48:52,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 10:49:15,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (96.2%),entry_gate
+2026-04-25 10:49:24,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 10:49:25,missing_person_detected,dhanush detected (100.0%),entry_gate
+2026-04-25 10:49:54,missing_person_detected,gokul detected (95.7%),entry_gate
+2026-04-25 10:49:56,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (92.0%),entry_gate
+2026-04-25 10:50:17,missing_person_detected,dhanush detected (80.7%),entry_gate
+2026-04-25 10:50:25,missing_person_detected,gokul detected (72.5%),entry_gate
+2026-04-25 10:50:30,missing_person_detected,WhatsApp Image 2026-04-09 at 2.39.41 PM detected (86.2%),entry_gate
+2026-04-25 10:56:46,missing_person_detected,gokul detected (67.6%),entry_gate
+2026-04-25 10:57:17,missing_person_detected,gokul detected (57.4%),entry_gate
+2026-04-25 10:57:48,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 10:58:19,missing_person_detected,gokul detected (65.5%),entry_gate
+2026-04-25 10:58:49,missing_person_detected,gokul detected (85.4%),entry_gate
+2026-04-25 10:59:19,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 11:20:45,missing_person_detected,gokul detected (89.7%),entry_gate
+2026-04-25 11:20:48,missing_person_detected,GOKUL1 detected (96.7%),entry_gate
+2026-04-25 11:21:02,missing_person_detected,MANI detected (89.1%),entry_gate
+2026-04-25 11:21:17,missing_person_detected,gokul detected (100.0%),entry_gate
+2026-04-25 11:21:18,missing_person_detected,GOKUL1 detected (100.0%),entry_gate
+2026-04-25 11:25:46,missing_person_detected,GOKUL1 detected (90.0%),entry_gate
+2026-04-25 11:25:51,missing_person_detected,MANI detected (88.5%),entry_gate
+2026-04-25 11:26:15,missing_person_detected,GOKUL1 detected (92.8%),entry_gate
+2026-04-25 11:26:46,missing_person_detected,GOKUL1 detected (86.2%),entry_gate
+2026-04-25 11:26:58,crowd_exceeded,Crowd exceeded in entry_gate: 3,entry_gate
+2026-04-25 11:27:02,missing_person_detected,MANI detected (77.8%),entry_gate
+2026-04-25 11:27:18,missing_person_detected,GOKUL1 detected (88.2%),entry_gate
+2026-04-25 11:33:06,missing_person_detected,gokul1 detected (67.1%),entry_gate
+2026-04-25 11:33:38,missing_person_detected,gokul1 detected (74.9%),entry_gate
+2026-04-25 11:34:01,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 11:34:32,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 11:35:02,missing_person_detected,gokul1 detected (91.8%),main_temple
+2026-04-25 11:35:33,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 11:36:05,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 11:36:36,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 11:49:44,missing_person_detected,WhatsApp Image 2026-04-06 at 8.09.01 PM detected (68.5%),entry_gate
+2026-04-25 11:50:17,missing_person_detected,WhatsApp Image 2026-04-06 at 8.09.01 PM detected (62.5%),entry_gate
+2026-04-25 11:50:49,missing_person_detected,WhatsApp Image 2026-04-06 at 8.09.01 PM detected (65.9%),entry_gate
+2026-04-25 11:51:19,missing_person_detected,WhatsApp Image 2026-04-06 at 8.09.01 PM detected (100.0%),entry_gate
+2026-04-25 11:51:52,missing_person_detected,WhatsApp Image 2026-04-06 at 8.09.01 PM detected (100.0%),entry_gate
+2026-04-25 12:19:40,missing_person_detected,gokul1 detected (75.5%),entry_gate
+2026-04-25 12:20:10,missing_person_detected,gokul1 detected (79.3%),entry_gate
+2026-04-25 18:12:13,missing_person_detected,gokul1 detected (100.0%),entry_gate
+2026-04-25 18:12:40,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 18:13:10,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 18:13:41,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-25 18:14:11,missing_person_detected,gokul1 detected (100.0%),main_temple
+2026-04-29 17:43:29,missing_person_detected,gokul1 detected (100.0%),entry_gate
+2026-04-29 17:43:59,missing_person_detected,gokul1 detected (100.0%),entry_gate
+2026-04-29 17:44:30,missing_person_detected,gokul1 detected (100.0%),entry_gate
+2026-04-29 17:45:01,missing_person_detected,gokul1 detected (52.2%),entry_gate
+2026-04-29 17:45:31,missing_person_detected,gokul1 detected (100.0%),entry_gate
+2026-04-29 17:46:01,missing_person_detected,gokul1 detected (100.0%),entry_gate

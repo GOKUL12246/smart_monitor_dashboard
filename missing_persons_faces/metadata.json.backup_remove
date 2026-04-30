@@ -1,0 +1,71 @@
+{
+  "persons": [
+    {
+      "person_id": "fa299d8e3a38",
+      "name": "gokul",
+      "image_path": "c:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\gokul\\WhatsApp Image 2026-04-08 at 10.54.52 AM.jpeg",
+      "added_date": "2026-04-08T10:56:00.166637",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5329,
+      "last_detection": "2026-04-25T10:50:32.733374",
+      "face_size": [
+        437,
+        437
+      ],
+      "features_count": 491,
+      "has_deepface": false
+    },
+    {
+      "person_id": "ddcb9629f419",
+      "name": "WhatsApp Image 2026-04-09 at 2.39.41 PM",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\WhatsApp Image 2026-04-09 at 2.39.41 PM.jpeg",
+      "added_date": "2026-04-09T14:42:47.365840",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 3805,
+      "last_detection": "2026-04-25T10:50:31.259798",
+      "face_size": [
+        530,
+        530
+      ],
+      "features_count": 421,
+      "has_deepface": false
+    },
+    {
+      "person_id": "4f51ce6a8a15",
+      "name": "vijay",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\vijay\\images.jpg",
+      "added_date": "2026-04-10T20:20:41.949291",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 1746,
+      "last_detection": "2026-04-25T10:50:31.259798",
+      "face_size": [
+        101,
+        101
+      ],
+      "features_count": 55,
+      "has_deepface": false
+    },
+    {
+      "person_id": "a59996a2ba83",
+      "name": "dhanush",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\dhanush\\dhanush_165778903520.jpg",
+      "added_date": "2026-04-24T20:46:58.681562",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 502,
+      "last_detection": "2026-04-25T10:50:32.733374",
+      "face_size": [
+        462,
+        462
+      ],
+      "features_count": 500,
+      "has_deepface": false
+    }
+  ],
+  "count": 4,
+  "last_updated": "2026-04-25T10:50:32.734394",
+  "has_deepface_embeddings": false
+}

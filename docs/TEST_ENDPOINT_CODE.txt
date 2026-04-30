@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Simple test endpoint to test face detection and matching
+Add this to temple_monitor.py to test
+"""
+
+# Add this route to temple_monitor.py
+
+SIMPLE_TEST_CODE = '''
+@app.route("/test_match", methods=["POST"])
+def test_match_endpoint():
+    """Simple test: upload image and see if it matches"""
+    if 'file' not in request.files:
+        return jsonify({"error": "No file"}), 400
+    
+    file = request.files['file']
+    temp_path = os.path.join(tempfile.gettempdir(), "test_" + str(int(time.time()*1000)) + '.jpg')
+    
+    try:
+        file.save(temp_path)
+        
+        # Try to match
+        matches = missing_person_detector.match_face(temp_path, threshold=0.05)
+        
+        result = {
+            "file": file.filename,
+            "matches_found": len(matches),
+            "matches": matches,
+            "details": []
+        }
+        
+        # Add debug info
+        img = cv2.imread(temp_path)
+        if img is not None:
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            
+            # Try face detection
+            cascade = cv2.CascadeClassifier(
+                os.path.join(cv2.data.haarcascades, 'haarcascade_frontalface_default.xml')
+            )
+            faces = cascade.detectMultiScale(gray, 1.1, 5)
+            
+            result["details"].append(f"Image size: {img.shape}")
+            result["details"].append(f"Faces detected: {len(faces)}")
+            
+            if len(faces) > 0:
+                result["details"].append(f"Face sizes: {[(w, h) for x, y, w, h in faces]}")
+        
+        os.remove(temp_path)
+        return jsonify(result)
+    
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    finally:
+        if os.path.exists(temp_path):
+            try:
+                os.remove(temp_path)
+            except:
+                pass
+'''
+
+print("Add this code to temple_monitor.py to enable testing!")
+print("\nThen use: curl -F 'file=@photo.jpg' http://localhost:5000/test_match")

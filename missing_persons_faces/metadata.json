@@ -1,0 +1,247 @@
+{
+  "persons": [
+    {
+      "person_id": "d84ca449a119",
+      "name": "Gokul S",
+      "image_path": "C:\\Users\\GOKULS~1\\AppData\\Local\\Temp\\WhatsApp Image 2026-04-06 at 8.09.01 PM.jpeg",
+      "added_date": "2026-04-06T21:08:16.705644",
+      "status": "active",
+      "confidence": 55.96,
+      "detections_count": 5399,
+      "last_detection": "2026-04-29T20:49:58.046873",
+      "face_size": [
+        691,
+        691
+      ],
+      "features_count": 500,
+      "has_deepface": true
+    },
+    {
+      "person_id": "6e4b19cbd940",
+      "name": "gokul",
+      "image_path": "missing_persons\\gokul\\WhatsApp Image 2026-04-08 at 10.10.17 AM.jpeg",
+      "added_date": "2026-04-08T10:21:28.452151",
+      "status": "active",
+      "confidence": 55.45,
+      "detections_count": 5391,
+      "last_detection": "2026-04-29T20:49:49.960630",
+      "face_size": [
+        172,
+        172
+      ],
+      "features_count": 236,
+      "has_deepface": false
+    },
+    {
+      "person_id": "83ef43dfbee6",
+      "name": "gokul",
+      "image_path": "missing_persons\\gokul\\WhatsApp Image 2026-04-08 at 10.14.02 AM.jpeg",
+      "added_date": "2026-04-08T10:21:28.849036",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5358,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        316,
+        316
+      ],
+      "features_count": 474,
+      "has_deepface": false
+    },
+    {
+      "person_id": "9f4ee5261b11",
+      "name": "John_Smith",
+      "image_path": "missing_persons\\John_Smith\\John_Smith_1.jpg",
+      "added_date": "2026-04-08T10:21:28.878479",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5244,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        185,
+        185
+      ],
+      "features_count": 135,
+      "has_deepface": false
+    },
+    {
+      "person_id": "52d78f2e940c",
+      "name": "John_Smith",
+      "image_path": "missing_persons\\John_Smith\\John_Smith_2.jpg",
+      "added_date": "2026-04-08T10:21:28.905965",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5298,
+      "last_detection": "2026-04-24T21:13:12.976878",
+      "face_size": [
+        217,
+        217
+      ],
+      "features_count": 157,
+      "has_deepface": false
+    },
+    {
+      "person_id": "ba44ffcca6c2",
+      "name": "Mike_Davis",
+      "image_path": "missing_persons\\Mike_Davis\\Mike_Davis_1.jpg",
+      "added_date": "2026-04-08T10:21:28.960162",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5077,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        180,
+        180
+      ],
+      "features_count": 124,
+      "has_deepface": false
+    },
+    {
+      "person_id": "905f73a4dc1e",
+      "name": "Mike_Davis",
+      "image_path": "missing_persons\\Mike_Davis\\Mike_Davis_2.jpg",
+      "added_date": "2026-04-08T10:21:29.034894",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5231,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        193,
+        193
+      ],
+      "features_count": 138,
+      "has_deepface": false
+    },
+    {
+      "person_id": "c7cc38bd1cae",
+      "name": "Emma_Johnson",
+      "image_path": "c:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\Emma_Johnson\\Emma_Johnson_1.jpg",
+      "added_date": "2026-04-08T10:37:04.096690",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5286,
+      "last_detection": "2026-04-24T21:13:12.976878",
+      "face_size": [
+        194,
+        194
+      ],
+      "features_count": 144,
+      "has_deepface": false
+    },
+    {
+      "person_id": "43002ec97dd5",
+      "name": "Emma_Johnson",
+      "image_path": "c:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\Emma_Johnson\\Emma_Johnson_2.jpg",
+      "added_date": "2026-04-08T10:37:05.125973",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5255,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        213,
+        213
+      ],
+      "features_count": 150,
+      "has_deepface": false
+    },
+    {
+      "person_id": "fa299d8e3a38",
+      "name": "gokul",
+      "image_path": "c:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\gokul\\WhatsApp Image 2026-04-08 at 10.54.52 AM.jpeg",
+      "added_date": "2026-04-08T10:56:00.166637",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 5134,
+      "last_detection": "2026-04-24T21:13:14.295154",
+      "face_size": [
+        437,
+        437
+      ],
+      "features_count": 491,
+      "has_deepface": false
+    },
+    {
+      "person_id": "ddcb9629f419",
+      "name": "WhatsApp Image 2026-04-09 at 2.39.41 PM",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\WhatsApp Image 2026-04-09 at 2.39.41 PM.jpeg",
+      "added_date": "2026-04-09T14:42:47.365840",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 3612,
+      "last_detection": "2026-04-24T21:13:14.295154",
+      "face_size": [
+        530,
+        530
+      ],
+      "features_count": 421,
+      "has_deepface": false
+    },
+    {
+      "person_id": "4f51ce6a8a15",
+      "name": "vijay",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\vijay\\images.jpg",
+      "added_date": "2026-04-10T20:20:41.949291",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 1553,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        101,
+        101
+      ],
+      "features_count": 55,
+      "has_deepface": false
+    },
+    {
+      "person_id": "2bf7d0452fe4",
+      "name": "gokul s",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\gokul s\\WhatsApp Image 2026-04-06 at 8.09.01 PM.jpeg",
+      "added_date": "2026-04-10T20:30:30.901263",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 1428,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        691,
+        691
+      ],
+      "features_count": 500,
+      "has_deepface": false
+    },
+    {
+      "person_id": "a59996a2ba83",
+      "name": "dhanush",
+      "image_path": "C:\\Users\\GOKUL S\\OneDrive\\Desktop\\smart_monitor_dashboard\\missing_persons\\dhanush\\dhanush_165778903520.jpg",
+      "added_date": "2026-04-24T20:46:58.681562",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 308,
+      "last_detection": "2026-04-24T21:13:14.336494",
+      "face_size": [
+        462,
+        462
+      ],
+      "features_count": 500,
+      "has_deepface": false
+    },
+    {
+      "person_id": "2e4f7a48c4b9",
+      "name": "gokul1",
+      "image_path": "missing_persons\\gokul1\\photo.jpg",
+      "added_date": "2026-04-29T20:04:25.884727",
+      "status": "active",
+      "confidence": 0.0,
+      "detections_count": 0,
+      "last_detection": null,
+      "face_size": [
+        691,
+        691
+      ],
+      "features_count": 500,
+      "has_deepface": false
+    }
+  ],
+  "count": 15,
+  "last_updated": "2026-04-29T20:49:58.051063",
+  "has_deepface_embeddings": false
+}

@@ -1,0 +1,23 @@
+{
+  "persons": [
+    {
+      "person_id": "gokul1_simple",
+      "name": "gokul1",
+      "image_path": "missing_persons/gokul1/photo.jpg",
+      "added_date": "2026-04-25",
+      "status": "active",
+      "confidence": 100,
+      "detections_count": 281,
+      "last_detection": "2026-04-29T17:46:06.371839",
+      "face_size": [
+        500,
+        500
+      ],
+      "features_count": 500,
+      "has_deepface": false
+    }
+  ],
+  "count": 1,
+  "last_updated": "2026-04-29T17:46:06.373162",
+  "has_deepface_embeddings": false
+}

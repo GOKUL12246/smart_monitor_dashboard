@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔥 Smart Monitor Pro Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="/static/vendor/fontawesome/css/all.min.css">
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .blink { animation: blink 1s infinite; }
+    .pulse { animation: pulse 2s infinite; }
+    .slide-down { animation: slideDown 0.5s ease-out; }
+    .fade-in { animation: fadeIn 0.6s ease-out; }
+  </style>
+</head>
+
+<body class="dash-body">
+  <!-- Modern Top Navigation -->
+  <nav class="top-nav">
+    <div class="nav-brand">
+      <i class="fas fa-video"></i>
+      <span>Smart Monitor Pro</span>
+    </div>
+    <div class="nav-menu">      <a href="/analytics" class="nav-link">
+        <i class="fas fa-chart-line"></i> Analytics
+      </a>      <div class="status-badge">
+        <i class="fas fa-circle status-dot"></i>
+        <span>Live</span>
+      </div>
+      <div class="user-info">
+        <i class="fas fa-user-circle"></i>
+        <span>Admin</span>
+      </div>
+      <a href="/logout" class="logout-btn">
+        <i class="fas fa-sign-out-alt"></i> Logout
+      </a>
+    </div>
+  </nav>
+
+  <!-- Alert Banner -->
+  {% if data.alert %}
+    <div class="alert-banner blink slide-down">
+      <i class="fas fa-exclamation-triangle"></i>
+      <span>{{ data.alert }}</span>
+      <i class="fas fa-exclamation-triangle"></i>
+    </div>
+  {% endif %}
+
+  <!-- Dashboard Container -->
+  <div class="dashboard-container">
+    
+    <!-- Camera Switcher -->
+    <div class="camera-switcher fade-in">
+      <div class="switcher-label">
+        <i class="fas fa-video"></i> Select Camera Location:
+      </div>
+      <div class="switcher-buttons">
+        <button class="switch-btn {% if data.active_camera == 'entry' %}active{% endif %}" onclick="switchCamera('entry')">
+          <i class="fas fa-door-open"></i> Entry Gate
+        </button>
+        <button class="switch-btn {% if data.active_camera == 'exit' %}active{% endif %}" onclick="switchCamera('exit')">
+          <i class="fas fa-sign-out-alt"></i> Exit Gate
+        </button>
+        <button class="switch-btn {% if data.active_camera == 'food' %}active{% endif %}" onclick="switchCamera('food')">
+          <i class="fas fa-utensils"></i> Food Court
+        </button>
+        <button class="switch-btn {% if data.active_camera == 'hospital' %}active{% endif %}" onclick="switchCamera('hospital')">
+          <i class="fas fa-hospital"></i> Medical Center
+        </button>
+      </div>
+    </div>
+
+    <!-- Stats Cards Row -->
+    <div class="stats-row fade-in">"
+      <div class="stat-card blue">
+        <div class="stat-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="stat-content">
+          <h3 id="totalCount">{{ data.entry }}</h3>
+          <p>Total Detected</p>
+        </div>
+      </div>
+
+      <div class="stat-card green">
+        <div class="stat-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="stat-content">
+          <h3 id="statusText">Normal</h3>
+          <p>Safety Status</p>
+        </div>
+      </div>
+
+      <div class="stat-card orange">
+        <div class="stat-icon">
+          <i class="fas fa-heartbeat"></i>
+        </div>
+        <div class="stat-content">
+          <h3 id="fallStatus">No Falls</h3>
+          <p>Fall Detection</p>
+        </div>
+      </div>
+
+      <div class="stat-card purple">
+        <div class="stat-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div class="stat-content">
+          <h3 id="liveTime">--:--:--</h3>
+          <p>Live Time</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <div class="content-grid fade-in">
+      
+      <!-- Live Camera Feed -->
+      <div class="main-card camera-card">
+        <div class="card-header">
+          <h2>
+            <i class="fas fa-camera"></i> <span id="cameraTitle">Live Camera Feed</span>
+          </h2>
+          <div class="status-indicators">
+            <span class="indicator" id="crowdIndicator">
+              <i class="fas fa-users"></i> Crowd: <b id="crowdText">Normal</b>
+            </span>
+            <span class="indicator" id="fallIndicator">
+              <i class="fas fa-person-falling"></i> Fall: <b id="fallText">None</b>
+            </span>
+          </div>
+        </div>
+        <div class="camera-wrapper">
+          <img src="{{ url_for('camera_feed') }}" class="camera-feed" alt="Live Feed" id="cameraImage">
+          <div class="camera-overlay">
+            <div class="recording-badge pulse">
+              <i class="fas fa-circle"></i> LIVE
+            </div>
+            <div class="location-badge" id="locationBadge">
+              <i class="fas fa-map-marker-alt"></i> <span id="locationText">Entry Gate</span>
+            </div>
+          </div>
+        </div>
+        <div class="camera-stats">
+          <div class="cam-stat">
+            <i class="fas fa-crosshairs"></i>
+            <span>360° Detection</span>
+          </div>
+          <div class="cam-stat">
+            <i class="fas fa-tachometer-alt"></i>
+            <span>30 FPS</span>
+          </div>
+          <div class="cam-stat">
+            <i class="fas fa-brain"></i>
+            <span>AI Powered</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Side Panel Cards -->
+      <div class="side-panel">
+        
+        <div class="info-card exit-card {% if data.active_camera == 'exit' %}active-location{% endif %}" onclick="switchCamera('exit')" style="cursor: pointer;">
+          <div class="info-icon">
+            <i class="fas fa-door-open"></i>
+          </div>
+          <div class="info-content">
+            <h3>{{ data.exit }}</h3>
+            <p>Exit Gate</p>
+            <span class="badge {% if data.active_camera == 'exit' %}active{% endif %}">{% if data.active_camera == 'exit' %}Active{% else %}Click to View{% endif %}</span>
+          </div>
+        </div>
+
+        <div class="info-card food-card {% if data.active_camera == 'food' %}active-location{% endif %}" onclick="switchCamera('food')" style="cursor: pointer;">
+          <div class="info-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="info-content">
+            <h3>{{ data.food }}</h3>
+            <p>Food Court</p>
+            <span class="badge {% if data.active_camera == 'food' %}active{% endif %}">{% if data.active_camera == 'food' %}Active{% else %}Click to View{% endif %}</span>
+          </div>
+        </div>
+
+        <div class="info-card hospital-card {% if data.active_camera == 'hospital' %}active-location{% endif %}" onclick="switchCamera('hospital')" style="cursor: pointer;">
+          <div class="info-icon">
+            <i class="fas fa-hospital"></i>
+          </div>
+          <div class="info-content">
+            <h3>{{ data.hospital }}</h3>
+            <p>Medical Center</p>
+            <span class="badge {% if data.active_camera == 'hospital' %}active{% endif %}">{% if data.active_camera == 'hospital' %}Active{% else %}Click to View{% endif %}</span>
+          </div>
+        </div>
+
+        <div class="info-card activity-card {% if data.active_camera == 'entry' %}active-location{% endif %}" onclick="switchCamera('entry')" style="cursor: pointer;">
+          <div class="info-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="info-content">
+            <h3>{{ data.entry }}</h3>
+            <p>Entry Gate</p>
+            <span class="badge {% if data.active_camera == 'entry' %}active{% endif %}">{% if data.active_camera == 'entry' %}Active{% else %}Click to View{% endif %}</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Live Update Script -->
+  <script>
+    const SAFE_LIMIT = 1;
+    let currentLocation = "{{ data.active_camera }}";
+    let panelExpanded = false;
+    
+    // Camera location names
+    const locationNames = {
+      'entry': 'Entry Gate',
+      'exit': 'Exit Gate',
+      'food': 'Food Court',
+      'hospital': 'Medical Center'
+    };
+    
+    // Initialize camera title
+    document.getElementById('cameraTitle').textContent = locationNames[currentLocation] + ' - Live Feed';
+    document.getElementById('locationText').textContent = locationNames[currentLocation];
+    
+    // Toggle area control panel
+    function toggleAreaPanel() {
+      const content = document.getElementById('areaControlContent');
+      const icon = document.getElementById('panelToggleIcon');
+      panelExpanded = !panelExpanded;
+      
+      if(panelExpanded) {
+        content.style.display = 'block';
+        icon.className = 'fas fa-chevron-up';
+      } else {
+        content.style.display = 'none';
+        icon.className = 'fas fa-chevron-down';
+      }
+    }
+    
+    // Switch camera function
+    function switchCamera(location) {
+      fetch('/switch_camera/' + location)
+        .then(res => res.json())
+        .then(data => {
+          if(data.status === 'success') {
+            currentLocation = location;
+            
+            // Update UI
+            document.getElementById('cameraTitle').textContent = locationNames[location] + ' - Live Feed';
+            document.getElementById('locationText').textContent = locationNames[location];
+            
+            // Update active button
+            document.querySelectorAll('.switch-btn').forEach(btn => {
+              btn.classList.remove('active');
+            });
+            event.target.closest('.switch-btn').classList.add('active');
+            
+            // Force reload camera feed
+            const cameraImg = document.getElementById('cameraImage');
+            const currentSrc = cameraImg.src;
+            cameraImg.src = '';
+            setTimeout(() => {
+              cameraImg.src = currentSrc + '?t=' + new Date().getTime();
+            }, 100);
+          }
+        })
+        .catch(err => console.error('Switch error:', err));
+    }
+    
+    // Update live time
+    function updateTime() {
+      const now = new Date();
+      document.getElementById('liveTime').textContent = now.toLocaleTimeString();
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+
+    // Fetch data every 2 seconds
+    setInterval(() => {
+      fetch('/count')
+        .then(res => res.json())
+        .then(data => {
+          // Update count
+          document.getElementById('totalCount').textContent = data.count;
+
+          // Update crowd status
+          const crowdIndicator = document.getElementById('crowdIndicator');
+          const crowdText = document.getElementById('crowdText');
+          const statusText = document.getElementById('statusText');
+          const statusCard = document.querySelector('.stat-card.green');
+
+          if(data.count > SAFE_LIMIT) {
+            crowdIndicator.style.color = '#ff4444';
+            crowdText.textContent = 'ALERT!';
+            statusText.textContent = 'Warning';
+            statusCard.style.background = 'linear-gradient(135deg, #ff6b6b, #ee5a6f)';
+          } else {
+            crowdIndicator.style.color = '#4CAF50';
+            crowdText.textContent = 'Normal';
+            statusText.textContent = 'Normal';
+            statusCard.style.background = 'linear-gradient(135deg, #4CAF50, #45a049)';
+          }
+
+          // Update fall detection status
+          const fallIndicator = document.getElementById('fallIndicator');
+          const fallText = document.getElementById('fallText');
+          const fallStatus = document.getElementById('fallStatus');
+
+          if(data.fall_detected) {
+            fallIndicator.style.color = '#ff4444';
+            fallIndicator.classList.add('blink');
+            fallText.textContent = 'DETECTED!';
+            fallStatus.textContent = 'Fall Alert!';
+          } else {
+            fallIndicator.style.color = '#4CAF50';
+            fallIndicator.classList.remove('blink');
+            fallText.textContent = 'None';
+            fallStatus.textContent = 'No Falls';
+          }
+        })
+        .catch(err => console.error('Fetch error:', err));
+    }, 2000);
+  </script>
+</body>
+</html>

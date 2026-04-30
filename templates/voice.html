@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant - {{ temple_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/vendor/fontawesome/css/all.min.css">
+    <style>
+        :root {
+            --bg-1: #0f172a;
+            --bg-2: #1e293b;
+            --card: rgba(15, 23, 42, 0.7);
+            --line: rgba(148, 163, 184, 0.3);
+            --ok: #22c55e;
+            --warn: #f59e0b;
+            --danger: #ef4444;
+            --accent: #38bdf8;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: var(--text);
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle at 20% 20%, #1d4ed8 0%, transparent 35%),
+                        radial-gradient(circle at 80% 10%, #0ea5e9 0%, transparent 30%),
+                        linear-gradient(140deg, var(--bg-1) 0%, var(--bg-2) 100%);
+            min-height: 100vh;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 22px;
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(8px);
+            background: rgba(2, 6, 23, 0.5);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+        }
+
+        .brand i {
+            color: var(--accent);
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            border: 1px solid var(--line);
+            background: rgba(15, 23, 42, 0.6);
+            color: var(--text);
+            padding: 9px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            border-color: var(--accent);
+        }
+
+        .btn.primary {
+            background: linear-gradient(135deg, #0284c7, #2563eb);
+            border: none;
+        }
+
+        .btn.warn {
+            background: linear-gradient(135deg, #b45309, #f59e0b);
+            border: none;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 16px 20px;
+            display: grid;
+            gap: 14px;
+        }
+
+        .grid {
+            display: grid;
+            gap: 14px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .card {
+            border: 1px solid var(--line);
+            background: var(--card);
+            border-radius: 14px;
+            padding: 14px;
+            box-shadow: 0 10px 28px rgba(2, 6, 23, 0.35);
+        }
+
+        .label {
+            color: var(--muted);
+            font-size: 0.86rem;
+            margin-bottom: 6px;
+        }
+
+        .value {
+            font-size: 1.45rem;
+            font-weight: 700;
+        }
+
+        .value.status-ok { color: var(--ok); }
+        .value.status-danger { color: var(--danger); }
+
+        .panel {
+            border: 1px solid var(--line);
+            background: var(--card);
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .panel h3 {
+            margin: 0 0 10px;
+            font-size: 1rem;
+        }
+
+        .command-row {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 11px 12px;
+            border-radius: 10px;
+            border: 1px solid var(--line);
+            background: rgba(15, 23, 42, 0.55);
+            color: var(--text);
+        }
+
+        .history {
+            margin-top: 12px;
+            max-height: 280px;
+            overflow-y: auto;
+            border-top: 1px dashed var(--line);
+            padding-top: 10px;
+        }
+
+        .msg {
+            padding: 9px 10px;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            border: 1px solid var(--line);
+            font-size: 0.93rem;
+        }
+
+        .msg.user {
+            background: rgba(14, 116, 144, 0.25);
+        }
+
+        .msg.assistant {
+            background: rgba(22, 163, 74, 0.2);
+        }
+
+        .chips {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+
+        .chip {
+            border: 1px solid var(--line);
+            color: var(--muted);
+            padding: 6px 9px;
+            border-radius: 999px;
+            font-size: 0.84rem;
+            cursor: pointer;
+            background: rgba(15, 23, 42, 0.5);
+        }
+
+        .hint {
+            color: var(--muted);
+            font-size: 0.88rem;
+            margin-top: 8px;
+        }
+
+        .lang-select {
+            margin-top: 10px;
+            width: 220px;
+            padding: 9px 10px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(15, 23, 42, 0.55);
+            color: var(--text);
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .command-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="brand">
+            <i class="fas fa-microphone-lines"></i>
+            <span>{{ temple_name }} Voice Assistant</span>
+        </div>
+        <div class="actions">
+            <a class="btn" href="/dashboard"><i class="fas fa-gauge"></i> Dashboard</a>
+            <button class="btn" onclick="toggleVoice('mute')"><i class="fas fa-volume-xmark"></i> Mute Alerts</button>
+            <button class="btn" onclick="toggleVoice('unmute')"><i class="fas fa-volume-high"></i> Unmute Alerts</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="grid">
+            <article class="card">
+                <div class="label">People Count</div>
+                <div id="personCount" class="value">--</div>
+            </article>
+            <article class="card">
+                <div class="label">Active Zone</div>
+                <div id="zoneName" class="value">--</div>
+            </article>
+            <article class="card">
+                <div class="label">Fire Status</div>
+                <div id="fireStatus" class="value">--</div>
+            </article>
+        </section>
+
+        <section class="panel">
+            <h3>Command Console</h3>
+            <div class="command-row">
+                <input id="commandInput" type="text" placeholder="Type or speak: exit/help/crowd/fire/parking/food court/police/fire station/bus stop">
+                <button class="btn primary" onclick="submitCommand()"><i class="fas fa-paper-plane"></i> Send</button>
+                <button id="micBtn" class="btn warn" onclick="startMic()"><i class="fas fa-microphone"></i> Speak</button>
+            </div>
+            <select id="languageMode" class="lang-select">
+                <option value="en">English</option>
+                <option value="ta">Tamil</option>
+                <option value="auto" selected>Auto (EN + TA)</option>
+            </select>
+            <div class="chips">
+                <button class="chip" onclick="quickCmd('Where is exit?')">Where is exit?</button>
+                <button class="chip" onclick="quickCmd('Help')">Help</button>
+                <button class="chip" onclick="quickCmd('Crowd status')">Crowd status</button>
+                <button class="chip" onclick="quickCmd('Fire status')">Fire status</button>
+                <button class="chip" onclick="quickCmd('Restroom')">Restroom</button>
+                <button class="chip" onclick="quickCmd('Where is parking area?')">Parking</button>
+                <button class="chip" onclick="quickCmd('Where is food court?')">Food court</button>
+                <button class="chip" onclick="quickCmd('Where is police station?')">Police station</button>
+                <button class="chip" onclick="quickCmd('Where is fire station?')">Fire station</button>
+                <button class="chip" onclick="quickCmd('Where is bus stop?')">Bus stop</button>
+                <button class="chip" onclick="quickCmd('உணவு மையம் எங்கே?')">உணவு மையம்</button>
+                <button class="chip" onclick="quickCmd('பார்க்கிங் எங்கே?')">பார்க்கிங்</button>
+            </div>
+            <div class="hint">Wake word for Python assistant remains: Temple Assist. This page supports both English and Tamil commands.</div>
+
+            <div id="history" class="history"></div>
+        </section>
+    </main>
+
+    <script>
+        let latestContext = {
+            person_count: 0,
+            zone_name: 'Main Entrance',
+            fire_detected: false,
+            locations: {}
+        };
+
+        const LOCAL_FALLBACK_LOCATIONS = {
+            entry: 'Move straight about 40 meters to the main arch landmark. Entry gate is just to the left of that arch.',
+            exit: 'Turn right and walk around 55 meters along the south corridor. Follow the green EXIT sign near the steel barricade.',
+            parking: 'Go straight 60 meters, then turn right at the token counter board. Continue 35 meters to the parking area near yellow lane marker.',
+            food_court: 'Turn right, walk 30 meters to the queue block, then turn right again and move 20 meters. Food court is beside the prasad counter near blue signboard.',
+            food_shop: 'From food court lane, walk 15 meters straight and look left near the tea-stall banner. Food shops are in that row.',
+            restroom: 'Walk 25 meters toward food court, then turn left at the drinking-water point. Restrooms are 10 meters ahead near parking corridor sign.',
+            bus_stop: 'Exit via north gate and continue straight about 250 meters. Bus stop is near the roadside shelter next to tea kiosk.',
+            police_station: 'Move straight 45 meters toward main entrance. Police assistance booth is next to the security desk and metal detector gate.',
+            fire_station: 'Take outer corridor, walk about 80 meters, then turn left at emergency vehicle lane sign. Fire response point is beside red hydrant.'
+        };
+
+        function addHistory(role, text) {
+            const history = document.getElementById('history');
+            const div = document.createElement('div');
+            div.className = `msg ${role}`;
+            div.textContent = `${role === 'user' ? 'You' : 'Assistant'}: ${text}`;
+            history.prepend(div);
+        }
+
+        function normalizeZone(value) {
+            return String(value || 'Main Entrance').replaceAll('_', ' ').replace(/\b\w/g, c => c.toUpperCase());
+        }
+
+        function crowdLevel(count) {
+            if (count >= 300) return 'high';
+            if (count >= 150) return 'moderate';
+            return 'normal';
+        }
+
+        function crowdLevelTa(count) {
+            if (count >= 300) return 'அதிகம்';
+            if (count >= 150) return 'மிதமான';
+            return 'இயல்பான';
+        }
+
+        function hasTamil(text) {
+            return /[\u0B80-\u0BFF]/.test(String(text || ''));
+        }
+
+        function getLangMode(commandText) {
+            const mode = document.getElementById('languageMode').value;
+            if (mode === 'auto') return hasTamil(commandText) ? 'ta' : 'en';
+            return mode;
+        }
+
+        function resolveLocation(command) {
+            const c = String(command || '').toLowerCase();
+            const rules = [
+                ['parking', ['parking', 'parking area', 'car park', 'பார்க்கிங்', 'வாகன நிறுத்தம்']],
+                ['entry', ['entry', 'entrance', 'entry gate', 'நுழைவு']],
+                ['exit', ['exit', 'way out', 'வெளியேறு', 'வெளியேறும்']],
+                ['food_court', ['food court', 'prasad', 'உணவு மையம்', 'பிரசாதம்']],
+                ['food_shop', ['food shop', 'snacks', 'tea shop', 'உணவு கடை', 'டீ கடை']],
+                ['police_station', ['police', 'police station', 'காவல்', 'போலீஸ்']],
+                ['fire_station', ['fire station', 'fire service', 'தீயணைப்பு']],
+                ['bus_stop', ['bus stop', 'bus', 'பஸ் நிறுத்தம்', 'பஸ்']],
+                ['restroom', ['restroom', 'toilet', 'washroom', 'கழிப்பறை']],
+            ];
+            for (const [key, aliases] of rules) {
+                if (aliases.some(a => c.includes(a))) return key;
+            }
+            return null;
+        }
+
+        function getLocationReply(locationKey, lang) {
+            const locations = latestContext.locations || LOCAL_FALLBACK_LOCATIONS;
+            const english = locations[locationKey] || LOCAL_FALLBACK_LOCATIONS[locationKey] || 'Location details are unavailable.';
+            if (lang !== 'ta') return english;
+
+            const taMap = {
+                entry: 'நீங்கள் இருக்கும் இடத்திலிருந்து சுமார் 40 மீட்டர் நேராக சென்று முக்கிய கோபுரத்தை அடையுங்கள். அந்த கோபுரத்தின் இடப்பக்கத்தில் நுழைவு வாசல் உள்ளது.',
+                exit: 'வலப்புறம் திரும்பி தெற்கு வழித்தடத்தில் சுமார் 55 மீட்டர் நடக்கவும். இரும்பு தடுப்பின் அருகிலுள்ள பச்சை EXIT பலகையைப் பின்பற்றுங்கள்.',
+                parking: '60 மீட்டர் நேராக சென்று டோக்கன் கவுண்டர் பலகையில் வலப்புறம் திரும்பவும். மேலும் 35 மீட்டர் சென்றால் மஞ்சள் பாதை குறியீட்டருகே பார்க்கிங் பகுதி கிடைக்கும்.',
+                food_court: 'வலப்புறம் திரும்பி 30 மீட்டர் சென்று வரிசை பகுதியை அடையுங்கள். அங்கிருந்து மீண்டும் வலப்புறம் திரும்பி 20 மீட்டர் செல்லவும். நீல பலகையருகே உணவு மையம் உள்ளது.',
+                food_shop: 'உணவு மைய பாதையில் இருந்து 15 மீட்டர் நேராக சென்று இடப்பக்கத்தில் டீ-ஸ்டால் பேனரைக் கவனிக்கவும். அதே வரிசையில் உணவு கடைகள் உள்ளன.',
+                police_station: 'முக்கிய நுழைவு நோக்கி 45 மீட்டர் நேராக செல்லுங்கள். பாதுகாப்பு மேசை மற்றும் மெட்டல் டிடெக்டர் வாயிலின் அருகே போலீஸ் உதவி மையம் உள்ளது.',
+                fire_station: 'வெளிப்புற வழித்தடத்தில் சுமார் 80 மீட்டர் சென்று அவசர வாகன பாதை பலகையில் இடப்புறம் திரும்பவும். சிவப்பு ஹைட்ரண்ட் அருகே தீயணைப்பு உதவி மையம் உள்ளது.',
+                bus_stop: 'வடக்கு வாயிலில் வெளியேறி சுமார் 250 மீட்டர் நேராக செல்லுங்கள். சாலையோர நிழற்குடை மற்றும் டீ கடை அருகே பஸ் நிறுத்தம் உள்ளது.',
+                restroom: 'உணவு மையம் நோக்கி 25 மீட்டர் சென்று குடிநீர் பாயிண்டில் இடப்புறம் திரும்புங்கள். பார்க்கிங் வழித்தட பலகைக்கு அருகே 10 மீட்டர் முன்னால் கழிப்பறைகள் உள்ளன.',
+            };
+            return taMap[locationKey] || english;
+        }
+
+        function processCommand(text) {
+            const command = String(text || '').trim().toLowerCase();
+            const lang = getLangMode(text);
+            const zone = normalizeZone(latestContext.zone_name || latestContext.zone);
+            const count = Number(latestContext.person_count || 0);
+            const fire = Boolean(latestContext.fire_detected);
+
+            if (!command) return lang === 'ta' ? 'நான் கட்டளையை கேட்கவில்லை. மீண்டும் சொல்லவும்.' : 'I did not hear a command. Please repeat.';
+
+            const locationKey = resolveLocation(text);
+            if (locationKey) {
+                return getLocationReply(locationKey, lang);
+            }
+
+            if (command.includes('exit')) {
+                return lang === 'ta'
+                    ? `${zone} பகுதியில் இருந்து அருகிலுள்ள வெளியேறும் வழி பக்க வழித்தடம். பச்சை EXIT பலகைகளை பின்பற்றுங்கள்.`
+                    : `Nearest exit from ${zone} is through the side corridor. Follow green EXIT signs calmly.`;
+            }
+            if (command.includes('help') || command.includes('emergency') || command.includes('உதவி')) {
+                return lang === 'ta'
+                    ? 'அவசர உதவி வருகிறது. அமைதியாக இருங்கள், அருகிலுள்ள பாதுகாப்பான இடத்துக்கு செல்லுங்கள்.'
+                    : 'Emergency assistance is on the way. Stay calm and move to the nearest safe area.';
+            }
+            if ((command.includes('crowd') && (command.includes('status') || command.includes('count') || command.includes('how'))) || command.includes('கூட்ட')) {
+                return lang === 'ta'
+                    ? `${zone} பகுதியில் கூட்டம் ${crowdLevelTa(count)}. தற்போதைய எண்ணிக்கை ${count}.`
+                    : `Crowd is ${crowdLevel(count)} in ${zone}. Current count is ${count}.`;
+            }
+            if ((command.includes('fire') && command.includes('status')) || (command.includes('தீ') && command.includes('நிலை'))) {
+                if (lang === 'ta') {
+                    return fire
+                        ? `${zone} அருகே தீ அபாயம் உள்ளது. உடனே அருகிலுள்ள வெளியேறும் வழிக்கு செல்லுங்கள்.`
+                        : 'தற்போது தீ எச்சரிக்கை இல்லை. பகுதி பாதுகாப்பாக உள்ளது.';
+                }
+                return fire ? `Alert. Fire risk is active near ${zone}. Move to nearest exit immediately.` : 'No fire alert is active right now. Area appears safe.';
+            }
+            if (command.includes('restroom') || command.includes('toilet') || command.includes('washroom') || command.includes('கழிப்பறை')) {
+                return getLocationReply('restroom', lang);
+            }
+            return lang === 'ta'
+                ? 'கட்டளை புரியவில்லை. வெளியேறும் வழி, கூட்ட நிலை, தீ நிலை, பார்க்கிங், உணவு மையம், பஸ் நிறுத்தம் போன்றவற்றைக் கேளுங்கள்.'
+                : 'I could not understand that. Try: exit, help, crowd status, fire status, parking, food court, police station, fire station, bus stop, restroom.';
+        }
+
+        async function speakBackend(message) {
+            try {
+                await fetch('/api/voice/speak', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message, priority: 'medium' })
+                });
+            } catch (_) {
+                // Keep UI responsive even if backend voice engine is not available.
+            }
+        }
+
+        async function fetchContext() {
+            try {
+                const res = await fetch('/api/voice/context');
+                const payload = await res.json();
+                latestContext = payload?.data || latestContext;
+
+                document.getElementById('personCount').textContent = String(latestContext.person_count ?? '--');
+                document.getElementById('zoneName').textContent = normalizeZone(latestContext.zone_name || latestContext.zone || '--');
+
+                const fireEl = document.getElementById('fireStatus');
+                if (latestContext.fire_detected) {
+                    fireEl.textContent = 'Detected';
+                    fireEl.className = 'value status-danger';
+                } else {
+                    fireEl.textContent = 'Clear';
+                    fireEl.className = 'value status-ok';
+                }
+            } catch (err) {
+                console.error('Voice context fetch failed', err);
+            }
+        }
+
+        function quickCmd(text) {
+            document.getElementById('commandInput').value = text;
+            submitCommand();
+        }
+
+        async function submitCommand() {
+            const input = document.getElementById('commandInput');
+            const text = input.value.trim();
+            if (!text) return;
+
+            addHistory('user', text);
+            const response = processCommand(text);
+            addHistory('assistant', response);
+            await speakBackend(response);
+            input.value = '';
+        }
+
+        async function toggleVoice(action) {
+            try {
+                await fetch(`/api/voice/${action}`, { method: 'POST' });
+                addHistory('assistant', action === 'mute' ? 'Voice alerts muted.' : 'Voice alerts unmuted.');
+            } catch (err) {
+                addHistory('assistant', 'Voice control request failed.');
+            }
+        }
+
+        function startMic() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SpeechRecognition) {
+                addHistory('assistant', 'Browser speech recognition is not supported in this browser.');
+                return;
+            }
+
+            const rec = new SpeechRecognition();
+            const mode = document.getElementById('languageMode').value;
+            rec.lang = mode === 'ta' ? 'ta-IN' : 'en-IN';
+            rec.interimResults = false;
+            rec.maxAlternatives = 1;
+
+            const btn = document.getElementById('micBtn');
+            btn.disabled = true;
+            btn.textContent = 'Listening...';
+
+            rec.onresult = (event) => {
+                const transcript = event.results[0][0].transcript || '';
+                document.getElementById('commandInput').value = transcript;
+                submitCommand();
+            };
+
+            rec.onerror = () => {
+                addHistory('assistant', 'Microphone recognition failed. Try again.');
+            };
+
+            rec.onend = () => {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-microphone"></i> Speak';
+            };
+
+            rec.start();
+        }
+
+        document.getElementById('commandInput').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') submitCommand();
+        });
+
+        fetchContext();
+        setInterval(fetchContext, 3000);
+    </script>
+</body>
+</html>

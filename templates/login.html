@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕉️ Temple Crowd Monitor - Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+    
+    .login-box h2 {
+      font-family: 'Cinzel', serif;
+    }
+    
+    .temple-icon {
+      font-size: 48px;
+      margin-bottom: 15px;
+      animation: float 3s ease-in-out infinite;
+      filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .subtitle {
+      color: #b8860b;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-top: -5px;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body class="login-body">
+
+  <div class="login-box">
+    <div class="temple-icon">🕉️</div>
+    <h2>Temple Crowd Monitor</h2>
+    <p class="subtitle">Sacred Space Management</p>
+    <form method="POST">
+      <input type="text" name="username" placeholder="👤 Username" required>
+      <input type="password" name="password" placeholder="🔐 Password" required>
+      <button type="submit">🚪 Enter Dashboard</button>
+      {% if error %}
+        <p class="error">❌ {{ error }}</p>
+      {% endif %}
+    </form>
+  </div>
+
+</body>
+</html>

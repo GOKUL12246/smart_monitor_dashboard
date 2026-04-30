@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Temple Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/vendor/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-1: #111827;
+            --bg-2: #1f2937;
+            --panel: rgba(255, 255, 255, 0.88);
+            --panel-soft: rgba(255, 255, 255, 0.72);
+            --ink: #121826;
+            --muted: #5a657a;
+            --line: rgba(31, 41, 55, 0.14);
+            --accent: #0ea5e9;
+            --accent-2: #22c55e;
+            --danger: #ef4444;
+        }
+
+        body {
+            font-family: 'Sora', 'Segoe UI', sans-serif;
+            background:
+                radial-gradient(circle at 15% 20%, rgba(14, 165, 233, 0.2), transparent 35%),
+                radial-gradient(circle at 80% 10%, rgba(34, 197, 94, 0.16), transparent 32%),
+                linear-gradient(135deg, var(--bg-1), var(--bg-2));
+            color: var(--ink);
+            min-height: 100vh;
+        }
+
+        .settings-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px 22px 40px;
+        }
+
+        .settings-topbar {
+            max-width: 1200px;
+            margin: 18px auto 0;
+            padding: 0 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .settings-topbar .crumb {
+            color: #d1d5db;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+        }
+
+        .settings-topbar .crumb:hover {
+            color: #fff;
+        }
+
+        .settings-topbar .quick-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .settings-topbar .chip {
+            color: #e5e7eb;
+            border: 1px solid rgba(229, 231, 235, 0.35);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 0.78rem;
+            backdrop-filter: blur(8px);
+        }
+        
+        .settings-header {
+            background: linear-gradient(130deg, rgba(14, 165, 233, 0.92) 0%, rgba(16, 185, 129, 0.88) 65%, rgba(59, 130, 246, 0.85) 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 22px 40px rgba(2, 132, 199, 0.25);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .settings-header::after {
+            content: '';
+            position: absolute;
+            right: -80px;
+            top: -80px;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.18);
+        }
+        
+        .settings-header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+            letter-spacing: 0.3px;
+        }
+        
+        .settings-section {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            backdrop-filter: blur(8px);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
+        }
+        
+        .settings-section h2 {
+            color: var(--ink);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(14, 165, 233, 0.24);
+        }
+        
+        .zone-settings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .zone-card {
+            border: 1px solid rgba(14, 165, 233, 0.18);
+            border-radius: 14px;
+            padding: 20px;
+            transition: all 0.25s ease;
+            background: var(--panel-soft);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+        }
+        
+        .zone-card:hover {
+            border-color: rgba(14, 165, 233, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 20px rgba(14, 165, 233, 0.18);
+        }
+        
+        .zone-card h3 {
+            color: #0369a1;
+            margin: 0 0 15px 0;
+            font-size: 1.2em;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color: #374151;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgba(71, 85, 105, 0.26);
+            border-radius: 10px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+            background: rgba(255, 255, 255, 0.85);
+        }
+        
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+        }
+        
+        .form-group .help-text {
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 3px;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #475569 0%, #64748b 100%);
+            color: white;
+            margin-left: 10px;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        
+        .save-buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: none;
+            box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
+        }
+        
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #c7d2fe;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .current-value {
+            display: inline-block;
+            background: rgba(2, 132, 199, 0.11);
+            padding: 2px 8px;
+            border-radius: 999px;
+            font-size: 0.9em;
+            margin-left: 5px;
+            color: #075985;
+        }
+
+        select {
+            border-radius: 10px !important;
+            border: 1px solid rgba(71, 85, 105, 0.26) !important;
+            background: rgba(255, 255, 255, 0.85);
+        }
+
+        .password-section h3,
+        .user-management h3,
+        .user-management h4 {
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+
+        .help-text {
+            color: var(--muted) !important;
+        }
+
+        @media (max-width: 768px) {
+            .settings-topbar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .settings-header {
+                padding: 24px 20px;
+            }
+
+            .settings-header h1 {
+                font-size: 1.6rem;
+            }
+
+            .save-buttons {
+                display: grid;
+                gap: 10px;
+            }
+
+            .btn-secondary {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-topbar">
+        <a href="/dashboard" class="crumb"><i class="fas fa-arrow-left"></i> Back to Dashboard</a>
+        <div class="quick-actions">
+            <span class="chip"><i class="fas fa-shield-heart"></i> Smart Safety</span>
+            <span class="chip"><i class="fas fa-sliders"></i> Live Controls</span>
+        </div>
+    </div>
+    <div class="settings-container">
+        <a href="/dashboard" class="back-link">← Back to Dashboard</a>
+        
+        <div class="settings-header">
+            <h1>⚙️ System Settings</h1>
+            <p>Customize zone capacities and monitoring parameters</p>
+        </div>
+        
+        <div id="alert-message" class="alert"></div>
+        
+        <div class="settings-section">
+            <h2>🏛️ Zone Capacity Settings</h2>
+            <p>Set the maximum capacity for each monitoring zone. The system will alert when zones reach warning or critical thresholds.</p>
+            
+            <div class="zone-settings" id="zone-settings">
+                <!-- Zone cards will be dynamically loaded here -->
+            </div>
+        </div>
+        
+        <div class="settings-section">
+            <h2>🔔 Alert Settings</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                        <input type="checkbox" id="voiceAlertsEnabled" checked style="width: auto;">
+                        <span>🔊 Voice Alerts (TTS)</span>
+                    </label>
+                    <div class="help-text">Speak alerts using text-to-speech</div>
+                </div>
+                <div class="form-group">
+                    <label>🌐 Voice Alert Language</label>
+                    <select id="voiceLanguage" style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1em;">
+                        <option value="en">🇬🇧 English</option>
+                        <option value="ta">🇮🇳 Tamil (தமிழ்)</option>
+                    </select>
+                    <div class="help-text">Language for voice announcements</div>
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                        <input type="checkbox" id="rfAlertsEnabled" checked style="width: auto;">
+                        <span>📡 RF Radio Broadcasts</span>
+                    </label>
+                    <div class="help-text">Send alerts via RF radio communication</div>
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                        <input type="checkbox" id="emailAlertsEnabled" checked style="width: auto;">
+                        <span>📧 Email Notifications</span>
+                    </label>
+                    <div class="help-text">Send email alerts via Gmail</div>
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                        <input type="checkbox" id="missingPersonEmailEnabled" checked style="width: auto;">
+                        <span>🧍 Missing Person Email Alerts</span>
+                    </label>
+                    <div class="help-text">Send email when a missing person match is detected</div>
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                        <input type="checkbox" id="autoEscalationEnabled" checked style="width: auto;">
+                        <span>⚡ Auto Escalation</span>
+                    </label>
+                    <div class="help-text">Automatically escalate critical situations</div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px;">
+                <button class="btn btn-primary" onclick="testEmailAlert()" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                    📧 Test Email Alert
+                </button>
+                <div class="help-text" style="margin-top: 5px;">Sends a test email to verify Gmail configuration</div>
+            </div>
+        </div>
+        
+        <div class="settings-section">
+            <h2>🤖 AI Detection Settings</h2>
+            <p>Configure head detection for accurate people counting from ceiling-mounted or 360° cameras.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+                <div class="form-group">
+                    <label>Detection Mode</label>
+                    <select id="detectionMode" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1em;">
+                        <option value="head">🔵 Head Detection (360° Overhead)</option>
+                        <option value="body">🟢 Full Body Detection (Standard)</option>
+                    </select>
+                    <div class="help-text">Head detection is optimized for ceiling cameras</div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Camera Type</label>
+                    <select id="cameraType" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1em;">
+                        <option value="overhead">📹 Overhead (Ceiling Mounted)</option>
+                        <option value="fisheye">🔮 Fisheye (180° Lens)</option>
+                        <option value="panoramic">🌐 Panoramic (360° View)</option>
+                        <option value="normal">📷 Normal (Standard Camera)</option>
+                    </select>
+                    <div class="help-text">Select your camera type for optimal detection</div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Detection Status</label>
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; padding: 15px; color: white;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <span>👤 Current Head Count</span>
+                            <span id="settingsHeadCount" style="font-size: 1.5em; font-weight: bold;">--</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <span>🔧 Detection Method</span>
+                            <span id="settingsDetectionMethod">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn btn-primary" onclick="applyDetectionSettings()" style="margin-top: 15px;">
+                🔄 Apply Detection Settings
+            </button>
+        </div>
+        
+        <div class="settings-section">
+            <h2>⏰ Timing Settings</h2>
+            <div style="max-width: 400px;">
+                <div class="form-group">
+                    <label>Alert Cooldown (seconds)</label>
+                    <input type="number" id="alertCooldown" value="30" min="5" max="300" style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1em;">
+                    <div class="help-text">Time between repeated alerts for the same zone</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Password Management Section -->
+        <div class="settings-section">
+            <h2>🔐 Password Management</h2>
+            
+            <div class="password-section">
+                <h3>Change Your Password</h3>
+                <form id="password-form" onsubmit="changePassword(event)">
+                    <div class="form-group">
+                        <label for="old-password">Current Password</label>
+                        <input type="password" id="old-password" name="old_password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="new-password">New Password</label>
+                        <input type="password" id="new-password" name="new_password" required minlength="4">
+                        <div class="help-text">Minimum 4 characters</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm New Password</label>
+                        <input type="password" id="confirm-password" name="confirm_password" required minlength="4">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Change Password</button>
+                </form>
+            </div>
+            
+            {% if current_user == 'admin' %}
+            <hr style="margin: 30px 0;">
+            
+            <div class="user-management">
+                <h3>User Management (Admin Only)</h3>
+                
+                <div class="form-group">
+                    <h4>Add New User</h4>
+                    <form id="add-user-form" onsubmit="addUser(event)">
+                        <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                            <input type="text" id="new-username" placeholder="Username" required style="flex: 1;">
+                            <input type="password" id="new-user-password" placeholder="Password" required minlength="4" style="flex: 1;">
+                            <button type="submit" class="btn btn-success">Add User</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="form-group">
+                    <h4>Existing Users</h4>
+                    <div id="users-list" style="margin-top: 10px;">
+                        Loading users...
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        
+        <div class="save-buttons">
+            <button class="btn btn-primary" onclick="saveSettings()">💾 Save All Settings</button>
+            <button class="btn btn-secondary" onclick="resetToDefaults()">🔄 Reset to Defaults</button>
+        </div>
+    </div>
+    
+    <script>
+        let zones = [];
+        
+        // Load zone data on page load
+        async function loadZones() {
+            try {
+                console.log('📥 Loading zones from /api/zones...');
+                const response = await fetch('/api/zones');
+                const data = await response.json();
+                console.log('✅ Zones loaded:', data);
+                zones = data.zones;
+                console.log('📊 Number of zones:', zones.length);
+                renderZoneSettings();
+                
+                // Load other settings
+                await loadOtherSettings();
+                await loadDetectionSettings();
+            } catch (error) {
+                console.error('❌ Error loading zones:', error);
+                showAlert('Error loading zones: ' + error.message, 'error');
+            }
+        }
+        
+        // Load alert and timing settings
+        async function loadOtherSettings() {
+            try {
+                const response = await fetch('/api/settings');
+                const data = await response.json();
+                
+                if (data.config) {
+                    document.getElementById('voiceAlertsEnabled').checked = data.config.voice_alerts !== false;
+                    document.getElementById('voiceLanguage').value = data.config.voice_language || 'en';
+                    document.getElementById('rfAlertsEnabled').checked = data.config.rf_alerts !== false;
+                    document.getElementById('emailAlertsEnabled').checked = data.config.email_alerts !== false;
+                    document.getElementById('missingPersonEmailEnabled').checked = data.config.missing_person_email_alert !== false;
+                    document.getElementById('autoEscalationEnabled').checked = data.config.auto_escalation !== false;
+                    document.getElementById('alertCooldown').value = data.config.alert_cooldown || 30;
+                }
+            } catch (error) {
+                console.log('Using default settings');
+            }
+        }
+        
+        // Load current detection settings
+        async function loadDetectionSettings() {
+            try {
+                const statusRes = await fetch('/api/ai_status');
+                const status = await statusRes.json();
+                
+                if (status.ai_detector_active) {
+                    document.getElementById('detectionMode').value = status.detection_mode || 'body';
+                    document.getElementById('cameraType').value = status.camera_type || 'normal';
+                    document.getElementById('settingsDetectionMethod').textContent = status.detection_method || 'HOG';
+                }
+                
+                // Get head count
+                const countRes = await fetch('/api/head_count');
+                const countData = await countRes.json();
+                if (countData.available) {
+                    document.getElementById('settingsHeadCount').textContent = countData.count;
+                } else {
+                    document.getElementById('settingsHeadCount').textContent = '0';
+                }
+            } catch (error) {
+                console.error('Error loading detection settings:', error);
+                document.getElementById('settingsHeadCount').textContent = '--';
+                document.getElementById('settingsDetectionMethod').textContent = 'HOG';
+            }
+        }
+        
+        // Update head count periodically
+        setInterval(loadDetectionSettings, 3000);
+        
+        // Render zone setting cards
+        function renderZoneSettings() {
+            console.log('🎨 Rendering zone settings...');
+            const container = document.getElementById('zone-settings');
+            if (!container) {
+                console.error('❌ Container element not found!');
+                return;
+            }
+            
+            container.innerHTML = '';
+            console.log(`📝 Zones to render: ${zones.length}`);
+            
+            if (zones.length === 0) {
+                container.innerHTML = '<p style="color: #888; text-align: center; padding: 20px;">No zones configured. Please check system initialization.</p>';
+                return;
+            }
+            
+            zones.forEach((zone, index) => {
+                console.log(`  Zone ${index + 1}: ${zone.name} (${zone.zone_id})`);
+                const card = document.createElement('div');
+                card.className = 'zone-card';
+                card.innerHTML = `
+                    <h3>${zone.name}</h3>
+                    <div class="form-group">
+                        <label>
+                            Maximum Capacity
+                            <span class="current-value">Current: ${zone.capacity}</span>
+                        </label>
+                        <input type="number" 
+                               id="capacity-${zone.zone_id}" 
+                               value="${zone.capacity}" 
+                               min="1" 
+                               max="10000"
+                               placeholder="Enter capacity">
+                        <div class="help-text">Maximum number of people allowed</div>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Warning Threshold (%)
+                            <span class="current-value">${Math.round(zone.warning_threshold * 100)}%</span>
+                        </label>
+                        <input type="number" 
+                               id="warning-${zone.zone_id}" 
+                               value="${Math.round(zone.warning_threshold * 100)}" 
+                               min="50" 
+                               max="100"
+                               placeholder="Enter percentage">
+                        <div class="help-text">Alert when this % of capacity is reached</div>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Critical Threshold (%)
+                            <span class="current-value">${Math.round(zone.critical_threshold * 100)}%</span>
+                        </label>
+                        <input type="number" 
+                               id="critical-${zone.zone_id}" 
+                               value="${Math.round(zone.critical_threshold * 100)}" 
+                               min="50" 
+                               max="150"
+                               placeholder="Enter percentage">
+                        <div class="help-text">Critical alert threshold</div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+            console.log('✅ Zone settings rendered successfully');
+        }
+        
+        // Save all settings
+        async function saveSettings() {
+            console.log('💾 Save button clicked');
+            console.log('📊 Current zones:', zones);
+            
+            const settings = zones.map(zone => ({
+                zone_id: zone.zone_id,
+                capacity: parseInt(document.getElementById(`capacity-${zone.zone_id}`).value),
+                warning_threshold: parseFloat(document.getElementById(`warning-${zone.zone_id}`).value) / 100,
+                critical_threshold: parseFloat(document.getElementById(`critical-${zone.zone_id}`).value) / 100
+            }));
+            
+            console.log('📝 Settings to save:', settings);
+            
+            // Collect alert and timing settings
+            const config = {
+                voice_alerts: document.getElementById('voiceAlertsEnabled').checked,
+                voice_language: document.getElementById('voiceLanguage').value,
+                rf_alerts: document.getElementById('rfAlertsEnabled').checked,
+                email_alerts: document.getElementById('emailAlertsEnabled').checked,
+                missing_person_email_alert: document.getElementById('missingPersonEmailEnabled').checked,
+                auto_escalation: document.getElementById('autoEscalationEnabled').checked,
+                alert_cooldown: parseInt(document.getElementById('alertCooldown').value)
+            };
+            
+            console.log('⚙️ Config to save:', config);
+            
+            try {
+                console.log('📤 Sending POST to /api/settings...');
+                const response = await fetch('/api/settings', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ zones: settings, config: config })
+                });
+                
+                console.log('📥 Response status:', response.status);
+                const data = await response.json();
+                console.log('📥 Response data:', data);
+                
+                if (data.status === 'success') {
+                    showAlert('✅ All settings saved successfully!', 'success');
+                    setTimeout(() => loadZones(), 1000);
+                } else {
+                    showAlert('❌ Error saving settings: ' + data.message, 'error');
+                }
+            } catch (error) {
+                console.error('❌ Save error:', error);
+                showAlert('❌ Error saving settings: ' + error.message, 'error');
+            }
+        }
+        
+        // Test email alert
+        async function testEmailAlert() {
+            showAlert('📧 Sending test email...', 'success');
+            try {
+                const response = await fetch('/api/test_email');
+                const data = await response.json();
+                if (data.status === 'success') {
+                    showAlert('✅ Test email sent! Check your inbox.', 'success');
+                } else {
+                    showAlert('❌ Email failed: ' + (data.message || 'Check console'), 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Error sending email: ' + error.message, 'error');
+            }
+        }
+        
+        // Apply AI Detection Settings
+        async function applyDetectionSettings() {
+            const detectionMode = document.getElementById('detectionMode').value;
+            const cameraType = document.getElementById('cameraType').value;
+            
+            try {
+                // Set detection mode
+                const modeResponse = await fetch('/api/detection_mode', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ mode: detectionMode })
+                });
+                
+                // Set camera type
+                const typeResponse = await fetch('/api/camera_type', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ type: cameraType })
+                });
+                
+                if (modeResponse.ok && typeResponse.ok) {
+                    showAlert(`✅ Detection: ${detectionMode.toUpperCase()} | Camera: ${cameraType.toUpperCase()}`, 'success');
+                    setTimeout(() => loadDetectionSettings(), 1000);
+                } else {
+                    showAlert('❌ Failed to apply detection settings', 'error');
+                }
+            } catch (error) {
+                console.error('Error applying detection settings:', error);
+                showAlert('❌ Error applying settings: ' + error.message, 'error');
+            }
+        }
+        
+        // Reset to default values
+        async function resetToDefaults() {
+            if (!confirm('Are you sure you want to reset all zones to default capacity values?')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/settings/zones/reset', {
+                    method: 'POST'
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    showAlert('✅ Settings reset to defaults!', 'success');
+                    setTimeout(() => loadZones(), 1000);
+                } else {
+                    showAlert('❌ Error resetting settings: ' + data.message, 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Error resetting settings: ' + error.message, 'error');
+            }
+        }
+        
+        // Show alert message
+        function showAlert(message, type) {
+            const alert = document.getElementById('alert-message');
+            alert.className = `alert alert-${type}`;
+            alert.textContent = message;
+            alert.style.display = 'block';
+            
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 5000);
+        }
+        
+        // Load zones on page load
+        loadZones();
+        
+        // Password Management Functions
+        async function changePassword(event) {
+            event.preventDefault();
+            
+            const oldPassword = document.getElementById('old-password').value;
+            const newPassword = document.getElementById('new-password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+            
+            if (newPassword !== confirmPassword) {
+                showAlert('❌ New passwords do not match!', 'error');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/password/change', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        old_password: oldPassword,
+                        new_password: newPassword
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    showAlert('✅ ' + data.message, 'success');
+                    document.getElementById('password-form').reset();
+                } else {
+                    showAlert('❌ ' + data.message, 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Error changing password: ' + error.message, 'error');
+            }
+        }
+        
+        async function addUser(event) {
+            event.preventDefault();
+            
+            const username = document.getElementById('new-username').value;
+            const password = document.getElementById('new-user-password').value;
+            
+            try {
+                const response = await fetch('/api/users/add', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        username: username,
+                        password: password
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    showAlert('✅ ' + data.message, 'success');
+                    document.getElementById('add-user-form').reset();
+                    loadUsers();
+                } else {
+                    showAlert('❌ ' + data.message, 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Error adding user: ' + error.message, 'error');
+            }
+        }
+        
+        async function loadUsers() {
+            try {
+                const response = await fetch('/api/users');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const usersList = document.getElementById('users-list');
+                    if (data.users.length === 0) {
+                        usersList.innerHTML = '<p>No users found</p>';
+                        return;
+                    }
+                    
+                    let html = '<table style="width: 100%; border-collapse: collapse;">';
+                    html += '<thead><tr><th style="text-align: left; padding: 10px; border-bottom: 2px solid #e0e0e0;">Username</th><th style="text-align: right; padding: 10px; border-bottom: 2px solid #e0e0e0;">Actions</th></tr></thead>';
+                    html += '<tbody>';
+                    
+                    data.users.forEach(user => {
+                        html += `<tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #f0f0f0;">${user.username}</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f0f0f0; text-align: right;">`;
+                        
+                        if (user.username !== 'admin') {
+                            html += `<button class="btn btn-danger" style="padding: 5px 10px; font-size: 0.85em;" onclick="deleteUser('${user.username}')">Delete</button>`;
+                        } else {
+                            html += '<span style="color: #888;">Protected</span>';
+                        }
+                        
+                        html += `</td></tr>`;
+                    });
+                    
+                    html += '</tbody></table>';
+                    usersList.innerHTML = html;
+                }
+            } catch (error) {
+                console.error('Error loading users:', error);
+            }
+        }
+        
+        async function deleteUser(username) {
+            if (!confirm(`Are you sure you want to delete user "${username}"?`)) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/users/delete/${username}`, {
+                    method: 'DELETE'
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    showAlert('✅ ' + data.message, 'success');
+                    loadUsers();
+                } else {
+                    showAlert('❌ ' + data.message, 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Error deleting user: ' + error.message, 'error');
+            }
+        }
+        
+        // Load users list if admin
+        const currentUser = '{{ current_user }}';
+        if (currentUser === 'admin') {
+            loadUsers();
+        }
+    </script>
+</body>
+</html>
